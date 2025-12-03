@@ -2,35 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:10597/</loc>
+    <lastmod>2025-11-29T12:02:28+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:10597/posts/</loc>
+    <lastmod>2025-11-29T12:02:28+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:10597/posts/0007_type_in/</loc>
+    <lastmod>2025-11-29T12:02:28+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:10597/posts/0006_play_at_home/</loc>
     <lastmod>2025-09-07T12:02:28+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-09-07T12:02:28+08:00</lastmod>
-  </url><url>
-    <loc>/posts/0006_play_at_home/</loc>
-    <lastmod>2025-09-07T12:02:28+08:00</lastmod>
-  </url><url>
-    <loc>/posts/0005_widely_disseminated_game/</loc>
+    <loc>http://localhost:10597/posts/0005_widely_disseminated_game/</loc>
     <lastmod>2025-07-14T12:02:28+08:00</lastmod>
   </url><url>
-    <loc>/posts/0004_1stgameseries/</loc>
+    <loc>http://localhost:10597/posts/0004_1stgameseries/</loc>
     <lastmod>2025-05-19T13:25:34+08:00</lastmod>
   </url><url>
-    <loc>/posts/0003_real1stvediogame/</loc>
+    <loc>http://localhost:10597/posts/0003_real1stvediogame/</loc>
     <lastmod>2025-04-29T14:10:04+08:00</lastmod>
   </url><url>
-    <loc>/posts/0002_1stvideogame/</loc>
+    <loc>http://localhost:10597/posts/0002_1stvideogame/</loc>
     <lastmod>2025-03-24T12:02:28+08:00</lastmod>
   </url><url>
-    <loc>/posts/0001_9thart/</loc>
+    <loc>http://localhost:10597/posts/0001_9thart/</loc>
     <lastmod>2025-03-01T11:02:28+08:00</lastmod>
   </url><url>
-    <loc>/posts/preface/</loc>
+    <loc>http://localhost:10597/posts/preface/</loc>
     <lastmod>2025-02-06T18:42:28+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:10597/categories/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:10597/tags/</loc>
   </url>
 </urlset>
