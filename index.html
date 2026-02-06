@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=12550&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -36,18 +36,18 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/">
+      <link rel="canonical" href="http://localhost:12550/">
     
 
-    <meta property="og:url" content="http://localhost:1313/">
+    <meta property="og:url" content="http://localhost:12550/">
   <meta property="og:site_name" content="&#39;广义&#39;电子游戏史">
   <meta property="og:title" content="&#39;广义&#39;电子游戏史">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="&#39;广义&#39;电子游戏史">
-  <meta itemprop="datePublished" content="2025-12-29T12:02:28+08:00">
-  <meta itemprop="dateModified" content="2025-12-29T12:02:28+08:00">
+  <meta itemprop="datePublished" content="2026-01-12T14:03:20+08:00">
+  <meta itemprop="dateModified" content="2026-01-12T14:03:20+08:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="&#39;广义&#39;电子游戏史">
 
@@ -110,10 +110,113 @@
   <div class="db pv4 ph3 ph0-l no-underline dark-gray">
     <div class="flex flex-column flex-row-ns">
       
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/0009_talk_about_simulator/" class="color-inherit dim link">
+            正史008：说说simulator
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>终于，本系列文章进入到了70s，1970年作为开始的一年实际上是那10年中电子游戏相对最平稳的一年，和之后的飞速发展有着鲜明的对比。当然，比起上一年（1969）来讲无论从数量还是质量亦或类型上都有一个提升。</p>
+<p>在开始说游戏之前还是惯例先说一下1970年，有时候了解背景也有助于了解游戏。文化方面先说说电影，有一部电影实际上在后续非常多的游戏致敬或者恶搞过，就是《巴顿将军》，这其中的星条旗背景下演讲成为影史最著名的场景之一</p>
+<p>
+  <figure>
+	  <img src="/images/0009/0000_patton.jpg" alt="Patton Salute" title="Patton Salute">
+	<figcaption align='center'>Patton Salute</figcaption>
+  </figure>
+</p>
+<p>之所以重点说下这部电影，也是和当时时代背景有关的。1970年，美国仍然深陷越战泥潭，甚至都可以说是在不断的被挫败中，整个美军士气不高且国内反战运动开始形成规模，军方和政府也在这几年持续的寻找一个点来扭转这些颓势。于是在这部电影制作中军方给与了很大的支持，政府方面也通过官方发言人等对其进行了宣传。同时不知是否是政府授意，本片在上映后进行了数次重映，用以二战胜利英雄反衬越战的挫败，回应公众对 “强势领袖” 的期待，同时提振士气和进行战争爱国价值观重塑。更在这之后还在同年直接入侵柬埔寨用以转移越战焦灼的注意力，而这个事件后面还间接促成了红色高棉的崛起和近代亚洲最血腥的事件，那都是后话了。</p>
+<p>科幻方面出了一部当年夺得星云奖的小说——《环形世界（Ringworld）》，这部小说从我的视角来看，具有时代性，还算能看（多种族携手探索已发生的未知实际上已经在当时都不算是新鲜的设定了）。但是其中重要的是提出了一个围绕恒星环状的、具有离心重力的巨型世界，这个设定可以说是和戴森球同样伟大的硬科幻巨物设定，受其影响的小说电影和游戏也是不计其数，不过对现代人来说，最能一下就想到的就是《光环（Halo）》了。</p>
+<p>
+  <figure>
+	  <img src="/images/0009/0001_ringworld.JPG" alt="Ringworld vs Halo" title="Ringworld vs Halo">
+	<figcaption align='center'>Ringworld vs Halo</figcaption>
+  </figure>
+</p>
+<p>当年还有一件事情影响了后续很多领域，同时还被拍成了电影，就是同样隶属阿波罗工程系列的阿波罗13号，或许是这个数字吉利，这个差点成为丧事的事件最终变成了一个人造的奇迹。而上一篇说到的登录月球的模拟器类型游戏（simulator）被官方更加注意到，配合这次的成功处置，后续也影响且诞生了数字孪生的概念。</p>
+<p>最后一个我觉得不得不讲的事情就是作为一个码农，实在是对1970-01-01 00:00:00 UTC太熟悉了，这就是Unix时间戳（Unix Epoch），而Unix这个及其重要的操作系统也就是于1970正式问世。当然开发开始时间是1969年，不过和其他软件产品一样，能被人记住的还是正式发布时间，游戏亦然。Unix不仅仅是对后续操作系统造成了深远影响，其精神“做一件事并做好”“组合小程序完成复杂任务”“避免冗余”一直激励着很多真正热爱技术的人前行。同时后续发展让其兼容了不同硬件和平台，也使得软件、游戏的开发和发行变得更加快捷和稳定。同时TCP/IP协议栈也是在BSD Unix开发和使用过程中逐渐成熟的，也就是说Unix可以认为是现代互联网的重要基石，而这一切，都是从1970年开始的。</p>
+<p>说完了背景，大概也能体会到当年社会的情况，之所以基本上只说了美国的情况，是因为当时冷战中两极之一的苏联是“你滴勋宗”掌权，他更在乎的是军力的大幅提高，所以在我要讲的电子游戏领域是很长时间都没有特别突出的社会影响的。不过不是说苏联就没有电子游戏，毕竟是要和美国为主的西方集团全方位竞争，游戏也是其中非常微小的一个部分，尤其是要现实社会主义程序优越性类型的，是的，又是老熟人——国际象棋类。</p>
+<p>1970年，莫斯科控制科学研究所里的 <em><strong>乔治·阿德尔森-韦尔斯基（Georgy Adelson‑Velsky）</strong></em> ， <em><strong>弗拉基米尔·阿尔拉扎罗夫（Vladimir Arlazarov）</strong></em> ，<em><strong>米哈伊尔·顿斯科伊（Mikhail Donskoy）</strong></em> 以文艺复兴时期的国际象棋女神凯莎（Caïssa）为名开发了国际象棋程序 <strong>凯莎（Kaissa）</strong>，据资料显示同样采用了常见的香农A型策略。后续持续更新了数年，并赢得了1974年在斯德哥尔摩举行的第一届世界计算机国际象棋锦标赛，并分别在1977年和1980年获得第二和第四名。当然后来还有一些新的人员加入到开发中，这些后来者是：<em><strong>亚历山大·比特曼（Alexander Bitman）</strong></em> 、<em><strong>A. 巴拉耶夫（A. Baraev）</strong></em> 、 <em><strong>阿纳托利·乌斯科夫（Anatoly Uskov）</strong></em> 、<em><strong>A. 莱曼（A. Leman）</strong></em> 和<em><strong>M. 罗岑菲尔德（M. Rozenfeld）</strong></em> 。而这款软件是在IBM System/360上面开发运行的，仍然还是老美的东西，毕竟这个研究所重心是在信息和控制论方面，而不是电子电脑科学方面</p>
+<p>
+  <figure>
+	  <img src="/images/0009/0002_Kaissa.jpg" alt="Kaissa部分开发者" title="Kaissa部分开发者">
+	<figcaption align='center'>Kaissa部分开发者</figcaption>
+  </figure>
+</p>
+<p>当然了，国际象棋一年可不止一款，这一年还有以下这些国际象棋游戏诞生：</p>
+<table>
+  <thead>
+      <tr>
+          <th>游戏名称</th>
+          <th>作者</th>
+          <th>机型</th>
+          <th>发布时间</th>
+          <th>大致说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>技术国际象棋程序（The Technology Chess Program）</strong></td>
+          <td><em><strong>詹姆斯·J·吉洛格利（James J. Gillogly）</strong></em></td>
+          <td>DEC PDP-10</td>
+          <td>1970</td>
+          <td>采用香农A型策略的国际象棋程序，由卡内基梅隆大学开发；三次参加ACM北美计算机国际象棋锦标赛，1971年和1972年获得亚军；是最早使用暴力搜索而非评估少量走法子集的象棋程序之一</td>
+      </tr>
+      <tr>
+          <td><strong>库科象棋（Coko）</strong></td>
+          <td><em><strong>丹尼斯·库珀（Dennis Cooper）</strong></em> 、 <em><strong>埃德·科兹德罗维奇（Ed Kozdrowicki）</strong></em></td>
+          <td>IBM System/360</td>
+          <td>1970年</td>
+          <td>用FORTRAN语言编写的国际象棋程序，名称“Coko”源自作者姓氏组合；参加了1970、1971和1972年三届美国计算机国际象棋锦标赛；后续版本加入Mater软件，专用于检测将死情况的软件：既能判断是否导致将死，也能判断如何预防将死</td>
+      </tr>
+      <tr>
+          <td><strong>戴利象棋程序（Daly CP）</strong></td>
+          <td><em><strong>克里斯·戴利（Chris Daly）</strong></em></td>
+          <td>Varian 620/i</td>
+          <td>1970年</td>
+          <td>用汇编语言编写的国际象棋程序；参加1970年第一届美国计算机国际象棋锦标赛并获得亚军；与大多数需接入远程大型机的象棋程序不同，其工作站为现场部署，采用图形用户界面和笔输入设备</td>
+      </tr>
+      <tr>
+          <td><strong>威塔象棋（Wita）</strong></td>
+          <td><em><strong>托尼·马什兰（Tony Marshland）</strong></em></td>
+          <td>Amdahl 470</td>
+          <td>1970年</td>
+          <td>1968年开始开发，1970年首次在第一届美国计算机国际象棋锦标赛公开亮相，1986年参加最后一届锦标赛；最初用Algol W语言编写，后移植到C语言，后续更名为“Awit”</td>
+      </tr>
+      <tr>
+          <td><strong>象棋3.x版本（Chess Ver.3.x）</strong></td>
+          <td><em><strong>拉里·阿特金（Larry Atkin）</strong></em> ，<em><strong>基思・戈伦（Keith Gorlen）</strong></em> ，<em><strong>大卫·斯莱特（David Slate）</strong></em></td>
+          <td>CDC 6600</td>
+          <td>1970年</td>
+          <td>为CDC 6600计算机开发的国际象棋游戏更新版本，包含1970年的3.0版、1971年的3.5版（支持其他终端用户观看进行中的比赛）和1972年的3.6版。这可是老熟人了，连续三篇都有他们。（哇，金色传说）</td>
+      </tr>
+  </tbody>
+</table>
+<p>
+  <figure>
+	  <img src="/images/0009/0003_Daly_CP.jpg" alt="其中两款的图片" title="其中两款的图片">
+	<figcaption align='center'>其中两款的图片</figcaption>
+  </figure>
+</p>
+        </div>
+        <a href="/posts/0009_talk_about_simulator/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
           
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <a href="/posts/0008_lunar_landing/" class="db grow">
-            <img src="http://localhost:1313/images/logo-long.png" class="img" alt="image from 正史007：登月">
+            <img src="http://localhost:12550/images/logo-long.png" class="img" alt="image from 正史007：登月">
           </a>
         </div>
       
@@ -128,9 +231,19 @@
 <p>去年（1968年）<em><strong>拉里·阿特金（Larry Atkin）</strong></em> ，<em><strong>基思・戈伦（Keith Gorlen）</strong></em> 制作了 <strong>象棋第一版（Chess Ver.1）</strong> ，今年他们拉来了<em><strong>大卫·斯莱特（David Slate）</strong></em> 制作了 <strong>象棋第二版（Chess Ver.2 ）</strong> ，仍然是在CDC 6600上面，没有太多可说的，他们在历史上留名还是多年以后的事情。</p>
 <p>另一款国际象棋游戏一开始是由美国无线电公司（RCA）实验室开发，后来则交给了密歇根大学，并持续更新到80年代中期，是一个跨机构、长周期开发的棋类程序代表，体现“持续迭代优化”的开发思路。参与人员有<em><strong>艾拉·鲁本（Ira Ruben）</strong></em> 、 <em><strong>弗雷德·斯沃茨（Fred Swartz）</strong></em> 、 <em><strong>维克多·伯曼（Victor Berman）</strong></em> 、 <em><strong>乔·温诺格拉德（Joe Winograd）</strong></em> 、 <em><strong>威廉·托伊卡（William Toikka）</strong></em> ，用FORTRAN开发，最后版本运行于Amdahl 470上，参加了12届北美计算机国际象棋锦标赛和4届世界国际象棋锦标赛。这个名称CHAOS不是混沌，而是Chess Heuristics And Other Stuff（国际象棋启发式和其他东西）的简写</p>
 <p>逻辑类型的游戏也有新的诞生， <strong>八人（Eight Men）</strong> 这个奇怪名字的游戏诞生于1969年4月10日，而且是在大名鼎鼎的UNIVAC I上面，后面还在1981年移植到了PTC Sol-20上面。光看这个名字很难理解是干什么的，简单来讲就是移位游戏，来源应该是一个叫八个跳钉（Eight Peg Puzzle） 的益智游戏.</p>
-<p><img src="/images/0008/0000_eight_pegs.png" alt="Eight Peg Puzzle"></p>
+<p>
+  <figure>
+	  <img src="/images/0008/0000_eight_pegs.png" alt="Eight Peg Puzzle" title="Eight Peg Puzzle">
+	<figcaption align='center'>Eight Peg Puzzle</figcaption>
+  </figure>
+</p>
 <p>8个人（钉子）分别站在空槽的两侧。玩家需要把他们移到另一边，进行换位。钉子只能移动到相邻的空格，或者跳过另一个钉子进入后面的空格。这里有一个24步的解题思路：</p>
-<p><img src="/images/0008/0001_eight_pegs_24.png" alt="24步解"></p>
+<p>
+  <figure>
+	  <img src="/images/0008/0001_eight_pegs_24.png" alt="24步解" title="24步解">
+	<figcaption align='center'>24步解</figcaption>
+  </figure>
+</p>
 <p>这个游戏能查到是由 <em><strong>RJC</strong></em> 编写，但这个RJC是谁或什么组织或公司我没有查到，后面如果能查到的话，我再更新吧。</p>
 <p>而且RJC还不止出了这一个，同样是在UNIVAC I上面在1969年4月27日还用BASIC编写了一个“23火柴”变种，名字叫做 <strong>拿走（Take-A-Way）</strong> 简单来讲还是捡石子，14个物品排成一行，每回合取1-3个，取最后1个者输。于1969年4月27日发布，后来还和上面那个游戏一起被还移植到PTC Sol-20上面。</p>
 <p>1968 年，数字设备公司（DEC）员工 <em><strong>道格·戴门特（Doug Dyment）</strong></em> 在阿尔伯塔大学做了一场关于计算机在教育中的演讲，演讲结束后，一位曾看过《苏美尔游戏》（之前正史005里提到）的女士向他描述了这件事。戴门特决定在PDP-8小型计算机上面用FOCAL语言来编写，起名为 <em><strong>苏美尔王（King of Sumeria）</strong></em>。为了让游戏在电脑可用的最小内存配置下运行，他一开始只写了包含《苏美尔游戏》的第一部分。还选择将统治者改名为更著名的巴比伦国王汉谟拉比，但却手误的拼写成“Hamurabi”。这是一款基于文本的土地与资源管理策略游戏。游戏共十轮，玩家扮演古巴比伦国王汉谟拉比，决定下一轮用多少粮食种植作物、养活人民和购买额外土地，同时应对作物产量和瘟疫的随机变化。之后由<em><strong>戴维・H・阿尔（David H. Ahl）</strong></em> 在1970年把后两部分补全，并加上其他一些新特性，并最后在1971年用BASIC重写，并正式名为 <strong>哈穆拉比（Hamurabi）</strong> 。</p>
@@ -152,7 +265,7 @@
           
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <a href="/posts/0007_type_in/" class="db grow">
-            <img src="http://localhost:1313/images/logo-long.png" class="img" alt="image from 正史006：TYPE IN">
+            <img src="http://localhost:12550/images/logo-long.png" class="img" alt="image from 正史006：TYPE IN">
           </a>
         </div>
       
@@ -164,7 +277,12 @@
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
           <p>估计看到这标题很多人都不知道说的是什么，不过没关系，可以先测试一下自己的机战魂程度：看到以下这张图应该喊什么？</p>
-<p><img src="/images/0007/0002_switch_on.png" alt="盖塔变形攻击常见用语"></p>
+<p>
+  <figure>
+	  <img src="/images/0007/0002_switch_on.png" alt="盖塔变形攻击常见用语" title="盖塔变形攻击常见用语">
+	<figcaption align='center'>盖塔变形攻击常见用语</figcaption>
+  </figure>
+</p>
 <p>话说上次最后说的是世界上第一款家用机的简略诞生史，从66年一口气说到了72年，但是这并不代表中间没有其他值得说的，而且我写这些东西也是想像报菜名一样尽可能的把每一个游戏都涉及到，当然我也知道这是不可能的，尤其是进入70年以后，游戏业开始真正的爆发式发展，各个平台的游戏层出不穷，我是不可能全讲到的，不过至少，这几年应该还是可以。顺便我看到有些讲电子游戏的媒体还喜欢从电脑发展史开始，我看到最全的一个是差分机-第一位女程序员-波兰被入侵-炸弹机-图灵-曼哈顿计划-冯诺依曼-ENIAC-（穿插纠纷甚至联系到人月神话）-EDVAC-几大架构-IBM这么一路写下去，应该怎么说呢，只要你发现讲电子游戏史还这样全讲了的大概率是既不懂游戏也有可能不懂电脑史，因为上面写的这些基本是显学，最大的好处是这其中的故事很多而且很容易写的很好看，但是实际上和电子游戏的发展关联没那么大，而且一般这么讲的很少会认真讲DEC公司和PDP系列，因为在电脑商业史上面它并没有那么的出名，但是在早期电子游戏史中却占据着很重要的地位。尤其是现在讲到的60s附近，在当时世界上大型机就是<strong>IBM和7个小矮人的时代</strong>，但是大型机的价位（动辄百万美元）、功耗和用处注定了它不会有更广泛的用户群体，也就失去了各种可能。而PDP系列作为小型机，售价基本是大型机的1/10或更低，而且相对来讲占地面积和功耗也在一定的容忍范围内，在这几年的院校、政府、公司等地方还是卖出不少，因此上也能看到前几篇文章中PDP出现的频率也是很高的。</p>
 <p>那么继续还是接着讲1967年的游戏，当然，之前已经说了67年的 <strong>棕盒子（The Brown Box）</strong> 及上面的游戏就不再赘述了。对了，66年开始有一个有意思的现象，在这之前，所有的游戏都是研究所、高校人员根据自己（兴趣或研究或展示）或者政府（关联单位或者协会）或者军方的要求来进行制作的，而从66年开始有部分公司和协会开始关注并开始认真介入电子游戏领域，试图在这方面看看能不能有所建树，其中一个就是上次单独写了的BOCES，而另一个，上一篇其实也出现了，这次我再着重提一下。</p>
 <p>1961年，DECUS（the Digital Equipment Computer Users&rsquo; Society）成立，看这个名字就知道，其是DEC公司的一个用户协会，成员包括购买 DEC 设备的公司和组织，许多成员是为DEC机器(PDP系列)编写代码的程序员或管理DEC的系统管理员。而DECUS作为DEC公司出资并由志愿者协同管理的组织，在其中对游戏的传播和制作也起到了很好的积极作用。当然后来DEC被Compaq（康柏）收购，之后Compaq再被Hewlett-Packard（HP，惠普）收购，DECUS也几易其手，并不断改名，现在作为惠普的用户协会存在，影响范围似乎更大了，但在游戏业和用户心中的影响力其实是变小了。上篇文章中64、65年的游戏就有DECUS的影子，而67年这个组织还协助了一些游戏的开发和发布，由于类型和影响有限，我就直接总结成列表了。</p>
@@ -207,52 +325,57 @@
 <p>有这么一个公司，如果没有他们的话，可能以下这些技术都会延迟很多年才被应用到市场上，这些技术有：电子显微镜、彩色显像管、CMOS技术、异质结技术、光电子发射器件、卡式录音机、直播电视、卫星直播系统以及高清电视等等等等。这些技术有的是他们公司发明，有的是他们改良，有的则是第一时间买了专利并成功商品化。这么一看这个公司应该是活的非常滋润的一个公司，至少，在当年确实是，而且第二年，也就是1968年还发明了LCD，怎么想都是一个勃勃生机的公司，这就是美国无线电（RCA）公司。67年作为7个小矮人之一个RAC公司也像当年的科技巨头一样有着自己的实验室，其中一个实验室就是RCA Laboratories，他们要在自己的大卫·萨诺夫研究中心的开放日上展示一下自己的产品，根据这次要展示两个重点：1.作为<a href="https://handwiki.org/wiki/RCA_Spectra_70">SPECTA 70系列机</a>中之一的中小型机SPECTA 70/25；2：展示下这台机器可以使用的IDI失量显示器。毫无疑问，游戏可以一举两得，于是，台球游戏再次被选中，他们制作了一个<strong>台球模拟游戏（Pool Game Simulation）</strong> ，拥有者15个号码球和一个白球（中间有个点来表示），于1967年9月28日开始展出，不过我没找到当时的照片。</p>
 <p>时间来到1968年，棕盒子诞生于这个现实世界。但是无论是马丁·路德·金遇刺引发的美国民权运动、法国学生抗议最终导致的“五月风暴”、还是“布拉格之春”体现的勃列日涅夫主义都预示着世界政治仍处于动荡情况。而这一年仙童八叛徒的<em><strong>罗伯特·诺伊斯（Robert Norton Noyce，集成电路之父）</strong></em> 、<em><strong>戈登·摩尔（Gordon Moore，摩尔定律缔造者）</strong></em> 共同创立了英特尔公司（Intel Corporation），这个公司之后会对电子游戏，更准确点，是对电脑游戏产生很大的影响。另外有两个电影必须要说一下，无论对文化还是后续对电子游戏都是有着很大的影响的，一个是 <strong>《人猿星球》</strong> ，作为5部曲的开头，讽刺了种族主义、冷战思维和社会等级制度，而且最后的残破自由女神像可以说是后续电子游戏经常见到的借鉴场景。而另一个必须要说的电影是 <strong>《2001太空漫游》</strong> ，一部怎么赞美都不为过的伟大科幻电影（但我也相信有不少人看不下去）。其对人工智能、人类进化、宇宙探索的描绘，成为后世无数科幻作品的灵感源泉。而且HAL 9000也是后面这么多年中最经典的人工智能之一，同样HAL这个名字在电子游戏界一提起来也是赫赫有名，主要原因就是这个同名公司曾出现过一位真正的在历史留名的真·玩家，还有一位他的好友，一直在出真·玩家才能玩的懂的游戏，这些，后面再说吧，多挖几个坑挺好玩的。</p>
 <p>说回1968年的电子游戏，先说以前已经出现的游戏类型。棋类仍然还是必然会出现的类型，由于这几年开始大规模的举办各种比赛，因此间接的促进了整体棋类游戏及算法的快速更新迭代。我先简单的列下1968年的国际象棋游戏，后面再写写这其中值得说的东西</p>
+<table>
+  <thead>
+      <tr>
+          <th>游戏名称</th>
+          <th>作者</th>
+          <th>机型</th>
+          <th>发布时间</th>
+          <th>大致说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>国际象棋（Schach）</strong></td>
+          <td><em><strong>罗尔夫·C·史密斯（Rolf C. Smith）</strong></em>, <em><strong>富兰克林·D·塞鲁蒂（Franklin D. Ceruti）</strong></em></td>
+          <td>UNIVAC I</td>
+          <td>1968</td>
+          <td>Schach是德语的国际象棋，根据资料其是用FORTRAN编写的。并参加了三场美国计算机国际象棋锦标赛（1970 年、1971 年和 1972 年）。第2版移植到了ALGOL在1980年至1986年间参加了六届世界计算机国际象棋锦标赛。第3版则在x86的DOS上面重写，并在1991年至1997年间参加了多个欧洲本地锦标赛以及国际计算机国际象棋和微型计算机国际象棋锦标赛，是一款持续更新很久的象棋游戏</td>
+      </tr>
+      <tr>
+          <td><strong>象棋第一版（Chess Ver.1）</strong></td>
+          <td><em><strong>拉里·阿特金（Larry Atkin）</strong></em>，<em><strong>基思・戈伦（Keith Gorlen）</strong></em></td>
+          <td>CDC 6600</td>
+          <td>1968</td>
+          <td>该游戏也是一个持续更新的象棋程序，曾八次赢得ACM北美计算机国际象棋锦标赛冠军，并于1977年在多伦多赢得第二届WCCC（World Congress of Chess Composition）。在不同版本采用了不同的算法，比如香农B策略-&gt;香农A策略。值得一说的是，这（3.5版本）还是最早的提供其他终端可以观看正在进行的比赛的功能，算是最早的内置直播游戏之一</td>
+      </tr>
+      <tr>
+          <td><strong>费舍尔-施耐德（The Fischer-Schneider）</strong></td>
+          <td><em><strong>汉斯-约亨·施耐德（Hans‑Jochen Schneider）</strong></em> <em><strong>库尔特・菲舍尔（Kurt Fischer）</strong></em></td>
+          <td>Telefunken TR-4</td>
+          <td>1968</td>
+          <td>听着名字就有德国风事实上也确实是由德国的两位作者用汇编在斯图加特大学的TR-4上面开发的。也是冷战时期西德大学常用本国开发的机器之一，同年（1968年）有TR 440的继任者面世，其上面甚至有球式鼠标配备。这款国际象棋软件还参加了后面1975年的德国国际象棋比赛</td>
+      </tr>
+      <tr>
+          <td><strong>J.Biit（Just Because it is There）</strong></td>
+          <td><em><strong>汉斯·柏林纳（Hans Berliner）</strong></em></td>
+          <td>IBM System/360</td>
+          <td>1968</td>
+          <td>参加第一届，也就是70年美国计算机国际象棋锦标赛，具备少有的图形用户界面，而不是画出来的点线和字母组成的画面</td>
+      </tr>
+      <tr>
+          <td><strong>兰卡斯特（Lancaster）</strong></td>
+          <td><em><strong>约翰·斯科特（John J. Scott）</strong></em></td>
+          <td>ICL 1909/5</td>
+          <td>1968</td>
+          <td>它与Mac Hack VI进行了一场表演赛，并与Atlas进行了比赛（这两个都是上篇文章介绍的）。</td>
+      </tr>
+  </tbody>
+</table>
+<p>这里面的游戏倒是没什么可写的，唯一值得讲故事的倒是UNIVAC I，它被用来推算1952年的美国大选，UNIVAC团队仅凭百分之五的投票结果就预测艾森豪威尔将赢得一场压倒性的胜利，而过不多久的最终结果显示其预测恐怖的准确，甚至在随后的几个月里，‘UNIVAC’逐渐成为计算机的通用术语（类似“你google一下”），这是世界上第一次通过计算机算法来预测政治结果。而UNIVAC的开发者正是ENIAC的真正开发者 <em><strong>莫希利（John Mauchly）</strong></em> 和 <em><strong>埃克特（John Eckert）</strong></em> ，而他们创建ENIAC，到愤而出走，再到后面被收购等事情也算是计算机史上一系列重要事件，不过他们和电子游戏的关联最多的就是这一系列的国际象棋游戏了。</p>
         </div>
         <a href="/posts/0007_type_in/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="/posts/0006_play_at_home/" class="db grow">
-            <img src="http://localhost:1313/images/logo-long.png" class="img" alt="image from 正史005：在家玩游戏">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/0006_play_at_home/" class="color-inherit dim link">
-            正史005：在家玩游戏
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>Play at home，字面意思当然就是在家游玩，同时这也是2021年………………</p>
-<p>啊，这个开头上回用过了。其实上次就打算写在家玩游戏这件事的，但是写<strong>Spacewar!</strong> 写上头了，导致写的过多，没来得及写。62年的<strong>Spacewar!</strong> 对整个游戏也影响远比我说的还要大，它和它的缔造者们影响了后面几代的游戏机及游戏设计，所以在我的眼里，虽然本系列文章提到了不少游戏，但这款游戏是站在现在的角度也仍然值得去玩玩的，属于我认可的神作，怎么写都不为过的神作之一。</p>
-<p>也说下我对神作的认定，首先是必须在电子游戏历史上有突破性表现，无论是画面、规则、操作、UI、音乐音效、gameplay、手感等等方面，任何一个或多个方面具备开创性且启发了后续电子游戏的游戏，而且最重要的一点就是<strong>我觉得好玩</strong> 。比如《星鸣特工》也在探索智商和容忍范围下限方面具备了突破性表现，也确实启发了后续所有人类都不要这么无脑的像弱智一样设计开发游戏。但是，是吧，只要是个人也没法把这玩意当成神作，后面如果真有机会能讲到2024年的话，我一定好好写写这个至今为止人类下限之一的玩意的故事，不过接下来还是要继续说说62年的其他游戏。顺便说一下，如果站在现在的角度去玩神作的话，如果有一种这游戏很一般、这游戏没什么新奇的、这游戏不很常见或类似的感觉，那就更能证明这是个神作，因为它影响了后续的电子游戏，让它们都照着自己开发，所以，神作一定是站在现在的眼光普通或者稍好的游戏，只有很少作品会一直常玩常新。</p>
-<p>说回来，这一年还是出了不少游戏的，先说能确定时间段的几个，首先是62年的4月<em><strong>迪克·康纳（Dick Conner）</strong></em> 在IBM大型机上制作了一款叫做<strong>Simulation of a One-Armed Bandit</strong> 的游戏。One-Armed Bandit，直译就是独臂盗贼，但实际上这是一个固定用语，就是吃角子老虎赌博机，就是类似下图这种（只有一个臂）：</p>
-<p><img src="/images/0006/0001_one_armed_bandit.jpg" alt="One-Armed Bandit"></p>
-<p>而康纳所做的就是在机器上面模拟一个同样有三个旋转轮，6种图案的吃角子老虎赌博机。可以通过按键启动，同时具备了15种不同金额来进行下注，最后会打印输赢结果，同时机器还能统计当天的总输赢值，不过很遗憾的我没找到原始的图片，不过找到了一个类似的模拟<a href="https://codepen.io/Kira4/pen/MRgzLj">Simulator one-armed bandit</a></p>
-<p>另两个是同一个月，同样在IBM大型机上出现的游戏也和赌博有关，一个是<em><strong>厄尔·E·希特（Earl E. Hitt）</strong></em> 的<strong>Blackjack Demonstration</strong> 和<em><strong>A·J·朗（A. J. Lang）</strong></em> 的<strong>Blackjack Game</strong> 。如名称所示，都是21点（Blackjack）游戏，这点倒是也没有太多可说的，继续。</p>
-<p>剩下的只能说是62年里的，但具体时间点我没有查到，我就随机写了，首先是两个有点类似的游戏，<em><strong>罗伯特·K·劳登（Robert K. Louden）</strong></em> 的<strong>3D Tic-Tac-Toe</strong> 和<em><strong>小H·F·史密斯（H. F. Smith Jr.）</strong></em> 的<strong>Three Dimensional Tick-Tack-Toe</strong> 。这两个都是立体的井字棋变种。前者是运行在IBM 1620的3x4x4的版本。后者则是4月出的4<em>4</em>4的版本，运行在IBM 650上面。这种一旦需要有立体构造的棋牌类，电子游戏反而确实是一个很好的展示方式，毕竟现实中的立体井字棋一般都是3<em>3</em>3的，超过这个会不好展示和游玩，因此在现实中的立体井字棋更多的人会直接在纸上画若干层来玩，这也是这两个游戏的实现方式，类似下面这图：</p>
-<p><img src="/images/0006/0002_3D_Tic_Tac_Toe.jpg" alt="立体井字棋示例"></p>
-<p>然后继续说棋类游戏，这一年除了老传统的井字棋自然也少不了更“高端”的国际象棋。62年<em><strong>亚历山大·贝尔（Alexander Bell）</strong></em> 在曼彻斯特大学时，有一位富有又独特的意大利数学家来到了这里</p>
-<p><img src="/images/0006/0003_alex_bell.jpg" alt="亚历山大·贝尔（左）"></p>
-<p>这位意大利数学家由于拒绝缩减自己500页的论文因此没有获得博士学位，但是后来却一直跟随着<em><strong>冯·诺依曼</strong></em> 工作，能和这种天才一直长期工作，也证明了这位数学家的能力是很强的，他就是遗传算法之父——<em><strong>尼尔斯·奥尔·巴里切利 (Nils Aall Barricelli)</strong></em> 。</p>
-<p><img src="/images/0006/0004_Nils_Aall_Barricelli_IAS.jpg" alt="尼尔斯·奥尔·巴里切利"></p>
-<p>他到曼彻斯特大学主要的一个原因是，这里有<em>Atlas</em> ，世界上最早的超级电脑之一。而尼尔斯要用这款超算来进行自己的共生生物体研究，然后他找到了贝尔，希望他能辅助自己制作一个国际象棋软件来研究遗传算法中的进化理论，而这款国际象棋软件也被叫做<strong>Atlas</strong> 。这款软件后面持续更新到80年代，并多次参加各种比赛用于验证智能算法，而贝尔还在72年写了一本书：<a href="http://www.chilton-computing.org.uk/acl/literature/books/gamesplaying/overview.htm">Games Playing with Computers</a></p>
-<p>另一个同年的国际象棋游戏则出自之前文章已经出现过的MIT神人们，也是上一篇出现过的外号<strong>Kotok-McCarthy</strong> 的，真实名称却是<strong>A Chess Playing Program for the IBM 7090 Computer</strong> ，朴素的可以。一般认为这个稳定版本是5月制作完的，其作者是<em><strong>约翰·麦卡锡（John McCarthy）</strong></em> 、<em><strong>艾伦·科托克（Alan Kotok）</strong></em> 、<em><strong>埃尔文·贝勒坎普（Elwyn Berlekamp）</strong></em> 、<em><strong>迈克尔·利伯曼（Michael A. Lieberman）</strong></em> 、<em><strong>查尔斯·尼森（Charles Niessen）</strong></em> 、<em><strong>罗伯特·瓦格纳（Robert A. Wagner）</strong></em> 、<em><strong>亚历克斯·伯恩斯坦（Alex Bernstein）</strong></em> 、<em><strong>保罗·亚伯拉罕斯（Paul W. Abrahams）</strong></em> ，就不贴图了，强者太多了，每一个都是历史上排得上号的人物，展开了介绍的话几篇文章都不够。请自己看论文吧<a href="/images/0006/33316111-MIT.pdf">A Chess Playing Program for the IBM 7090 Computer</a></p>
-        </div>
-        <a href="/posts/0006_play_at_home/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -266,6 +389,12 @@
         <section class="w-100">
           <h1 class="f3">More</h1>
           
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/posts/0006_play_at_home/" class="link black dim">
+                正史005：在家玩游戏
+              </a>
+            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/posts/0005_widely_disseminated_game/" class="link black dim">
@@ -285,12 +414,6 @@
               </a>
             </h2>
           
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/posts/0002_1stvideogame/" class="link black dim">
-                正史001：第一个电子游戏
-              </a>
-            </h2>
-          
         </section>
       
 
@@ -300,8 +423,8 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
-    &copy;  '广义'电子游戏史 2025 
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:12550/" >
+    &copy;  '广义'电子游戏史 2026 
   </a>
     <div><div class="ananke-socials"></div>
 </div>
