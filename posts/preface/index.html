@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6403&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=11003&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -55,10 +55,10 @@ SO,GAME START!">
     
 
     
-      <link rel="canonical" href="http://localhost:6403/posts/preface/">
+      <link rel="canonical" href="http://localhost:11003/posts/preface/">
     
 
-    <meta property="og:url" content="http://localhost:6403/posts/preface/">
+    <meta property="og:url" content="http://localhost:11003/posts/preface/">
   <meta property="og:site_name" content="&#39;广义&#39;电子游戏史">
   <meta property="og:title" content="″广义″电子游戏史——前言">
   <meta property="og:description" content="Why 为什么要写？ 起因是几个月前在S1看一个帖子介绍了本书，是关于电子游戏史的，我没有去看只是在待读书单加了一行留待观察。但是后面有好几个新帖都在骂这个推荐帖和书，骂的天花乱坠的。感觉连这种什么都不懂的人都能写我也行，更何况我之前还认真的做过游戏简史方面的研究和分享，且游戏一直是我的三大爱好之一，我也不会糊弄随便乱写。这么一想我似乎早就应该动手了，就算是为了自己写写记录一下之前的研究也是该动手了
@@ -120,15 +120,19 @@ SO,GAME START!">
   
   
   
-  <header class="contain bg-top" style="background-image: url('http://localhost:6403/images/logo-long.png');">
+  <header class="contain bg-top" style="background-image: url('http://localhost:11003/images/logo-long.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+    <div class="flex-l items-center">
       
-        &#39;广义&#39;电子游戏史
-      
-    </a>
+      <a href="/directory/" class="directory-btn f6 fw4 no-underline white-80 hover-white mr3" title="文章目录">☰ 目录</a>
+      <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+        
+          &#39;广义&#39;电子游戏史
+        
+      </a>
+    </div>
     <div class="flex-l items-center">
       
 
@@ -138,6 +142,22 @@ SO,GAME START!">
     </div>
   </div>
 </nav>
+
+<style>
+  .directory-btn {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    line-height: 1.5;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .directory-btn:hover {
+    border-color: #fff;
+    background: rgba(255,255,255,0.1);
+  }
+</style>
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
@@ -151,8 +171,8 @@ SO,GAME START!">
       
   
   
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
+  <article class="page-container ph3">
+    <header class="mt4">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           
         Posts
@@ -167,7 +187,7 @@ SO,GAME START!">
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="why">Why</h1>
+    <div class="article-content nested-copy-line-height lh-copy serif f4 nested-links mid-gray"><h1 id="why">Why</h1>
 <h2 id="为什么要写">为什么要写？</h2>
 <p>起因是几个月前在S1看一个帖子介绍了本书，是关于电子游戏史的，我没有去看只是在待读书单加了一行留待观察。但是后面有好几个新帖都在骂这个推荐帖和书，骂的天花乱坠的。感觉连这种什么都不懂的人都能写我也行，更何况我之前还认真的做过游戏简史方面的研究和分享，且游戏一直是我的三大爱好之一，我也不会糊弄随便乱写。这么一想我似乎早就应该动手了，就算是为了自己写写记录一下之前的研究也是该动手了</p>
 <h1 id="where">Where</h1>
@@ -200,20 +220,149 @@ SO,GAME START!">
       
       </div>
     </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
   </article>
+  <style>
+    .page-container { width: 80%; margin: 0 auto; }
+    @media (max-width: 60em) { .page-container { width: 92%; } }
+    .article-content img {
+      max-width: 70%;
+      max-height: 600px;
+      width: auto;
+      cursor: pointer;
+    }
+    .article-content figure {
+      max-width: 70%;
+      margin: 1.5rem auto;
+      text-align: center;
+    }
+    .article-content figure img {
+      max-width: 100%;
+      max-height: 600px;
+      width: auto;
+      cursor: pointer;
+    }
+    .lightbox-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.85);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      animation: fadeIn .2s;
+    }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .lightbox-overlay img {
+      max-width: 90vw;
+      max-height: 90vh;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.article-content img').forEach(function(img) {
+      img.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        var overlay = document.createElement('div');
+        overlay.className = 'lightbox-overlay';
+        overlay.innerHTML = '<img src="' + this.src + '" alt="">';
+        overlay.addEventListener('click', function() { overlay.remove(); });
+        document.body.appendChild(overlay);
+      });
+    });
+  });
+  </script>
+  
+<div class="floating-sidebar">
+  <div class="floating-sidebar-title">有点东西</div>
+  <ul class="floating-sidebar-links">
+    
+    <li><a href="/sites/bead-maker/index.html" target="_blank" rel="noopener">图片像素/拼豆化</a></li>
+    <li><a href="/sites/pong/index.html" target="_blank" rel="noopener">PONG</a></li>
+    <li><a href="/sites/101-BASIC-Computer-Games/index.html" target="_blank" rel="noopener">101-BASIC-Computer-Games</a></li>
+  </ul>
+</div>
+
+<style>
+  .floating-sidebar {
+    position: fixed;
+    right: 24px;
+    top: 120px;
+    width: 160px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 12px 0;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    z-index: 100;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .floating-sidebar-title {
+    padding: 4px 16px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .floating-sidebar-links {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0 0;
+  }
+  .floating-sidebar-links li {
+    padding: 4px 16px;
+  }
+  .floating-sidebar-links li + li {
+    margin-top: 6px;
+  }
+  .floating-sidebar-links a {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    line-height: 1.6;
+    transition: color 0.15s;
+  }
+  .floating-sidebar-links a::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    mask-size: contain;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    -webkit-mask-size: contain;
+    vertical-align: middle;
+    opacity: 0.6;
+  }
+  .floating-sidebar-links a:hover {
+    color: #0074d9;
+  }
+  .floating-sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .floating-sidebar::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 2px;
+  }
+  @media (max-width: 60em) {
+    .floating-sidebar {
+      display: none;
+    }
+  }
+</style>
+
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:6403/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:11003/" >
     &copy;  '广义'电子游戏史 2026 
   </a>
     <div><div class="ananke-socials"></div>

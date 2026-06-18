@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=11003&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>正史013：1973年的游戏（上）——Type-in | &#39;广义&#39;电子游戏史</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="在送别了1972年这电子游戏史上第一个奇迹年之后，迎来了1973年。这一年，既和平又动荡，越南战争正式签订了《巴黎和平协约》，但第四次中东战争带来的第一次石油危机却狠狠地阻挠了全世界的发展，而且这次战争所形成的格局和影响一直持续到现在，中东彻底成为一个一直在燃烧，不知何时会彻底爆炸的火药桶。而美国那边这一年最热闹的事就是水门事件的发酵了，持续了整整一年。科技方面有几件事情值得一说。首先就是商用磁存储软盘在这一年被发明出来，虽然之前的1967年IBM就已经研制出了软盘，不过在1973年阿兰·舒加特（Alan Shugart）（同时也是1967年32英寸的软盘发明人）创建了舒加特联合公司，并将其缩减到了8英寸的版本之后，软盘才正式开始商业化大量售卖。不过这人的命运还是挺坎坷的，多次被自己创建的公司解雇，而且这算是题外话吧，他之后还创建了一个公司，运营一段时间后改名为希捷（Seagate），之后还是被踢了出去。之所以要说软盘这件事，是因为从1973年开始，个人电脑市场开始逐步的成型，而软盘是毫无疑问的核心存储器之一，在游戏史上也是极其重要的存储介质。科技界另一件重要发明，也是现在几乎人人都离不开的，就是手机了，准确的说是民用手机原型机（Dyna TAC，重约1.13公斤）在这一年被发明，发明人是马丁·劳伦斯·库帕（Martin Lawrence Cooper），当时他是摩托罗拉公司个人通信事业部门的一名技术工程师，现在也被认为是移动电话之父。
+
+  
+	  
+	movies
+  
+
+文艺界影响后世游戏业界也有不少值得一说的。先说电影吧，这一年有两个电影我觉得影响了后世，首先就是《西部世界》，是的，后面那个同名电视剧实际上也是从这部电影而来。这部电影直接刻画出了一个由AI机器人组成的开放世界。另一个影响后世的则是其用像素化方式展示AI机器人视角，同时还将技术失控和AI是否是自由的，是否有人权摆在了大众面前。另一个就是《驱魔人》，宗教因素&#43;恐怖、封闭空间&#43;灵异异响&#43;吓一跳这两者都不是说电子游戏了，几乎成为后世一切恐怖刻画的典型范式。而说到驱魔人，再转回头说说日本那边，漫画鬼才永井豪于1972年创作了《恶魔人》，1973年则被誉为恶魔人大年，这一年让黑暗漫画这个概念深深地植入了当时不少年轻人的心中。当然那一年日本也不全是这么黑暗的，漫画之神手冢治虫在同年开始了《怪医黑杰克》的连载，应该是史上第一的医学相关的漫画，也是被誉为20世纪70年代三大不朽杰作之一，另两个其中一个就是上面说的《恶魔人》，另一个是1972年池田理代子开始连载的少女漫画《凡尔赛玫瑰》，这个没看过，不好评论。这一年还有一个动画片开播，一说名字就世人皆知的那种，就是这世界上最让人想拥有的蓝胖子——机器猫，啊，现在叫《哆啦A梦》了
+
+  
+	  
+	Anime &amp; Comic
+  
+
+还有一部想说的日本电影，是改编自日本最著名科幻小说的电影，前后被多次改编成电影和电视剧的《日本沉没》，小说是由小松左京在同年推出的，成为当年日本第一畅销书，且第二年获得了第27届日本推理作家协会奖和第5届日本科幻文学星云奖，小松左京可以说是此后很长一段时间里日本最知名的科幻小说家。除了当年就被东宝改成电影外，第二年就被改编成电视剧，后又改编成广播剧、漫画和动画，并第二次再被改编成了电影和电视剧推出。整体来说，改编得都不怎么样，除了1974年的电视剧还可以看看，剩下的没必要浪费时间了，直接看小说更好。
+
+  
+	  
+	Sinking of Japan
+  
+
+时代背景基本就这么多，看看这一年的游戏，首先从数量上来讲，整体突破了200款，为截至目前最多的一年，主要原因就是这一年出了一本书： 101个BASIC电脑游戏（101 BASIC Computer Games） ，编写这本书的是之前已经数次出现过的改编狂魔 戴维・H・阿尔（David H. Ahl） ，他在1969年开始将大量游戏改写为BASIC版本，而到了1973年，他将这些所有他见过的或者能找到作者的或者自己改编过的游戏集结成册，写了这本Type-in的著作，当然这些主要是作者在DEC内部能接触到的游戏。
+
+  
+	  
+	101 BASIC Computer Games
+  
+
+我找到了这些代码网上的一个保存地址，在github用户maurymarkowitz那里，我则利用本身码农的优势，vibe coding一下形成了静态的html版本（大约耗了1M tokens），放到我的github上了，同时，如果是在http://deathxlent.github.io/上面看到这篇文章的话，右边会有悬浮框，也可以直接点进去在线玩玩，顺便我还放上了像素/拼豆化工具和pong的在线单机版本，都是我折腾的。如果有人能提供免费服务器资源，欢迎告知我，我可以将其改造为在线联机版本
+
+  
+	  
+	101 BASIC Computer Games静态html版
+  
+
+由于已经改编成可以自行体验的，我就不详细一个一个说了，大致总结一下有以下6类：
+
+  
+      
+          游戏类型
+          特点
+          代表作品
+      
+  
+  
+      
+          棋牌桌游类
+          复刻传统棋牌、牌类玩法，靠文本交互实现
+          21点（BLACKJACK）、国际象棋（CHESS）、扑克牌（POKER）、五子棋（GOMOKO）
+      
+      
+          模拟经营/策略类
+          资源管理、决策类玩法，考验规划能力
+          大富翁（MONOPOLY）、帝国管理（HAMURABI）、海战（BATTLE）
+      
+      
+          益智解谜类
+          逻辑推理、数学谜题、文字游戏
+          数字猜谜（HILO）、化学解码（CHEMSTR）、文字问答（LITQZ）
+      
+      
+          体育竞技类
+          模拟各类体育运动的对战/统计玩法。当然，还是文字交互的
+          棒球（BASEBAL）、篮球（BASKET）、拳击（BOXING）
+      
+      
+          动作/射击/冒险类
+          文本版“动作”游戏，靠指令控制角色/单位
+          飞机射击（ACEYDUCEY）、导弹发射（ROCKET2）、地牢探险（MONSTER）
+      
+      
+          工具/演示类
+          以教学、演示为目的的程序，兼具游戏性
+          生命游戏（LIFE）、伪随机数生成器、日历打印程序
+      
+  
+
+除了这本书，本年还有20款Type-in类型的游戏">
+    <meta name="generator" content="Hugo 0.145.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:11003/posts/0014_1973_part1/">
+    
+
+    <meta property="og:url" content="http://localhost:11003/posts/0014_1973_part1/">
+  <meta property="og:site_name" content="&#39;广义&#39;电子游戏史">
+  <meta property="og:title" content="正史013：1973年的游戏（上）——Type-in">
+  <meta property="og:description" content="在送别了1972年这电子游戏史上第一个奇迹年之后，迎来了1973年。这一年，既和平又动荡，越南战争正式签订了《巴黎和平协约》，但第四次中东战争带来的第一次石油危机却狠狠地阻挠了全世界的发展，而且这次战争所形成的格局和影响一直持续到现在，中东彻底成为一个一直在燃烧，不知何时会彻底爆炸的火药桶。而美国那边这一年最热闹的事就是水门事件的发酵了，持续了整整一年。科技方面有几件事情值得一说。首先就是商用磁存储软盘在这一年被发明出来，虽然之前的1967年IBM就已经研制出了软盘，不过在1973年阿兰·舒加特（Alan Shugart）（同时也是1967年32英寸的软盘发明人）创建了舒加特联合公司，并将其缩减到了8英寸的版本之后，软盘才正式开始商业化大量售卖。不过这人的命运还是挺坎坷的，多次被自己创建的公司解雇，而且这算是题外话吧，他之后还创建了一个公司，运营一段时间后改名为希捷（Seagate），之后还是被踢了出去。之所以要说软盘这件事，是因为从1973年开始，个人电脑市场开始逐步的成型，而软盘是毫无疑问的核心存储器之一，在游戏史上也是极其重要的存储介质。科技界另一件重要发明，也是现在几乎人人都离不开的，就是手机了，准确的说是民用手机原型机（Dyna TAC，重约1.13公斤）在这一年被发明，发明人是马丁·劳伦斯·库帕（Martin Lawrence Cooper），当时他是摩托罗拉公司个人通信事业部门的一名技术工程师，现在也被认为是移动电话之父。
+movies文艺界影响后世游戏业界也有不少值得一说的。先说电影吧，这一年有两个电影我觉得影响了后世，首先就是《西部世界》，是的，后面那个同名电视剧实际上也是从这部电影而来。这部电影直接刻画出了一个由AI机器人组成的开放世界。另一个影响后世的则是其用像素化方式展示AI机器人视角，同时还将技术失控和AI是否是自由的，是否有人权摆在了大众面前。另一个就是《驱魔人》，宗教因素&#43;恐怖、封闭空间&#43;灵异异响&#43;吓一跳这两者都不是说电子游戏了，几乎成为后世一切恐怖刻画的典型范式。而说到驱魔人，再转回头说说日本那边，漫画鬼才永井豪于1972年创作了《恶魔人》，1973年则被誉为恶魔人大年，这一年让黑暗漫画这个概念深深地植入了当时不少年轻人的心中。当然那一年日本也不全是这么黑暗的，漫画之神手冢治虫在同年开始了《怪医黑杰克》的连载，应该是史上第一的医学相关的漫画，也是被誉为20世纪70年代三大不朽杰作之一，另两个其中一个就是上面说的《恶魔人》，另一个是1972年池田理代子开始连载的少女漫画《凡尔赛玫瑰》，这个没看过，不好评论。这一年还有一个动画片开播，一说名字就世人皆知的那种，就是这世界上最让人想拥有的蓝胖子——机器猫，啊，现在叫《哆啦A梦》了
+Anime &amp; Comic还有一部想说的日本电影，是改编自日本最著名科幻小说的电影，前后被多次改编成电影和电视剧的《日本沉没》，小说是由小松左京在同年推出的，成为当年日本第一畅销书，且第二年获得了第27届日本推理作家协会奖和第5届日本科幻文学星云奖，小松左京可以说是此后很长一段时间里日本最知名的科幻小说家。除了当年就被东宝改成电影外，第二年就被改编成电视剧，后又改编成广播剧、漫画和动画，并第二次再被改编成了电影和电视剧推出。整体来说，改编得都不怎么样，除了1974年的电视剧还可以看看，剩下的没必要浪费时间了，直接看小说更好。
+Sinking of Japan时代背景基本就这么多，看看这一年的游戏，首先从数量上来讲，整体突破了200款，为截至目前最多的一年，主要原因就是这一年出了一本书： 101个BASIC电脑游戏（101 BASIC Computer Games） ，编写这本书的是之前已经数次出现过的改编狂魔 戴维・H・阿尔（David H. Ahl） ，他在1969年开始将大量游戏改写为BASIC版本，而到了1973年，他将这些所有他见过的或者能找到作者的或者自己改编过的游戏集结成册，写了这本Type-in的著作，当然这些主要是作者在DEC内部能接触到的游戏。
+101 BASIC Computer Games我找到了这些代码网上的一个保存地址，在github用户maurymarkowitz那里，我则利用本身码农的优势，vibe coding一下形成了静态的html版本（大约耗了1M tokens），放到我的github上了，同时，如果是在http://deathxlent.github.io/上面看到这篇文章的话，右边会有悬浮框，也可以直接点进去在线玩玩，顺便我还放上了像素/拼豆化工具和pong的在线单机版本，都是我折腾的。如果有人能提供免费服务器资源，欢迎告知我，我可以将其改造为在线联机版本
+101 BASIC Computer Games静态html版由于已经改编成可以自行体验的，我就不详细一个一个说了，大致总结一下有以下6类：
+游戏类型 特点 代表作品 棋牌桌游类 复刻传统棋牌、牌类玩法，靠文本交互实现 21点（BLACKJACK）、国际象棋（CHESS）、扑克牌（POKER）、五子棋（GOMOKO） 模拟经营/策略类 资源管理、决策类玩法，考验规划能力 大富翁（MONOPOLY）、帝国管理（HAMURABI）、海战（BATTLE） 益智解谜类 逻辑推理、数学谜题、文字游戏 数字猜谜（HILO）、化学解码（CHEMSTR）、文字问答（LITQZ） 体育竞技类 模拟各类体育运动的对战/统计玩法。当然，还是文字交互的 棒球（BASEBAL）、篮球（BASKET）、拳击（BOXING） 动作/射击/冒险类 文本版“动作”游戏，靠指令控制角色/单位 飞机射击（ACEYDUCEY）、导弹发射（ROCKET2）、地牢探险（MONSTER） 工具/演示类 以教学、演示为目的的程序，兼具游戏性 生命游戏（LIFE）、伪随机数生成器、日历打印程序 除了这本书，本年还有20款Type-in类型的游戏">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-05-29T10:47:38+08:00">
+    <meta property="article:modified_time" content="2026-05-29T10:47:38+08:00">
+
+  <meta itemprop="name" content="正史013：1973年的游戏（上）——Type-in">
+  <meta itemprop="description" content="在送别了1972年这电子游戏史上第一个奇迹年之后，迎来了1973年。这一年，既和平又动荡，越南战争正式签订了《巴黎和平协约》，但第四次中东战争带来的第一次石油危机却狠狠地阻挠了全世界的发展，而且这次战争所形成的格局和影响一直持续到现在，中东彻底成为一个一直在燃烧，不知何时会彻底爆炸的火药桶。而美国那边这一年最热闹的事就是水门事件的发酵了，持续了整整一年。科技方面有几件事情值得一说。首先就是商用磁存储软盘在这一年被发明出来，虽然之前的1967年IBM就已经研制出了软盘，不过在1973年阿兰·舒加特（Alan Shugart）（同时也是1967年32英寸的软盘发明人）创建了舒加特联合公司，并将其缩减到了8英寸的版本之后，软盘才正式开始商业化大量售卖。不过这人的命运还是挺坎坷的，多次被自己创建的公司解雇，而且这算是题外话吧，他之后还创建了一个公司，运营一段时间后改名为希捷（Seagate），之后还是被踢了出去。之所以要说软盘这件事，是因为从1973年开始，个人电脑市场开始逐步的成型，而软盘是毫无疑问的核心存储器之一，在游戏史上也是极其重要的存储介质。科技界另一件重要发明，也是现在几乎人人都离不开的，就是手机了，准确的说是民用手机原型机（Dyna TAC，重约1.13公斤）在这一年被发明，发明人是马丁·劳伦斯·库帕（Martin Lawrence Cooper），当时他是摩托罗拉公司个人通信事业部门的一名技术工程师，现在也被认为是移动电话之父。
+movies文艺界影响后世游戏业界也有不少值得一说的。先说电影吧，这一年有两个电影我觉得影响了后世，首先就是《西部世界》，是的，后面那个同名电视剧实际上也是从这部电影而来。这部电影直接刻画出了一个由AI机器人组成的开放世界。另一个影响后世的则是其用像素化方式展示AI机器人视角，同时还将技术失控和AI是否是自由的，是否有人权摆在了大众面前。另一个就是《驱魔人》，宗教因素&#43;恐怖、封闭空间&#43;灵异异响&#43;吓一跳这两者都不是说电子游戏了，几乎成为后世一切恐怖刻画的典型范式。而说到驱魔人，再转回头说说日本那边，漫画鬼才永井豪于1972年创作了《恶魔人》，1973年则被誉为恶魔人大年，这一年让黑暗漫画这个概念深深地植入了当时不少年轻人的心中。当然那一年日本也不全是这么黑暗的，漫画之神手冢治虫在同年开始了《怪医黑杰克》的连载，应该是史上第一的医学相关的漫画，也是被誉为20世纪70年代三大不朽杰作之一，另两个其中一个就是上面说的《恶魔人》，另一个是1972年池田理代子开始连载的少女漫画《凡尔赛玫瑰》，这个没看过，不好评论。这一年还有一个动画片开播，一说名字就世人皆知的那种，就是这世界上最让人想拥有的蓝胖子——机器猫，啊，现在叫《哆啦A梦》了
+Anime &amp; Comic还有一部想说的日本电影，是改编自日本最著名科幻小说的电影，前后被多次改编成电影和电视剧的《日本沉没》，小说是由小松左京在同年推出的，成为当年日本第一畅销书，且第二年获得了第27届日本推理作家协会奖和第5届日本科幻文学星云奖，小松左京可以说是此后很长一段时间里日本最知名的科幻小说家。除了当年就被东宝改成电影外，第二年就被改编成电视剧，后又改编成广播剧、漫画和动画，并第二次再被改编成了电影和电视剧推出。整体来说，改编得都不怎么样，除了1974年的电视剧还可以看看，剩下的没必要浪费时间了，直接看小说更好。
+Sinking of Japan时代背景基本就这么多，看看这一年的游戏，首先从数量上来讲，整体突破了200款，为截至目前最多的一年，主要原因就是这一年出了一本书： 101个BASIC电脑游戏（101 BASIC Computer Games） ，编写这本书的是之前已经数次出现过的改编狂魔 戴维・H・阿尔（David H. Ahl） ，他在1969年开始将大量游戏改写为BASIC版本，而到了1973年，他将这些所有他见过的或者能找到作者的或者自己改编过的游戏集结成册，写了这本Type-in的著作，当然这些主要是作者在DEC内部能接触到的游戏。
+101 BASIC Computer Games我找到了这些代码网上的一个保存地址，在github用户maurymarkowitz那里，我则利用本身码农的优势，vibe coding一下形成了静态的html版本（大约耗了1M tokens），放到我的github上了，同时，如果是在http://deathxlent.github.io/上面看到这篇文章的话，右边会有悬浮框，也可以直接点进去在线玩玩，顺便我还放上了像素/拼豆化工具和pong的在线单机版本，都是我折腾的。如果有人能提供免费服务器资源，欢迎告知我，我可以将其改造为在线联机版本
+101 BASIC Computer Games静态html版由于已经改编成可以自行体验的，我就不详细一个一个说了，大致总结一下有以下6类：
+游戏类型 特点 代表作品 棋牌桌游类 复刻传统棋牌、牌类玩法，靠文本交互实现 21点（BLACKJACK）、国际象棋（CHESS）、扑克牌（POKER）、五子棋（GOMOKO） 模拟经营/策略类 资源管理、决策类玩法，考验规划能力 大富翁（MONOPOLY）、帝国管理（HAMURABI）、海战（BATTLE） 益智解谜类 逻辑推理、数学谜题、文字游戏 数字猜谜（HILO）、化学解码（CHEMSTR）、文字问答（LITQZ） 体育竞技类 模拟各类体育运动的对战/统计玩法。当然，还是文字交互的 棒球（BASEBAL）、篮球（BASKET）、拳击（BOXING） 动作/射击/冒险类 文本版“动作”游戏，靠指令控制角色/单位 飞机射击（ACEYDUCEY）、导弹发射（ROCKET2）、地牢探险（MONSTER） 工具/演示类 以教学、演示为目的的程序，兼具游戏性 生命游戏（LIFE）、伪随机数生成器、日历打印程序 除了这本书，本年还有20款Type-in类型的游戏">
+  <meta itemprop="datePublished" content="2026-05-29T10:47:38+08:00">
+  <meta itemprop="dateModified" content="2026-05-29T10:47:38+08:00">
+  <meta itemprop="wordCount" content="456">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="正史013：1973年的游戏（上）——Type-in">
+  <meta name="twitter:description" content="在送别了1972年这电子游戏史上第一个奇迹年之后，迎来了1973年。这一年，既和平又动荡，越南战争正式签订了《巴黎和平协约》，但第四次中东战争带来的第一次石油危机却狠狠地阻挠了全世界的发展，而且这次战争所形成的格局和影响一直持续到现在，中东彻底成为一个一直在燃烧，不知何时会彻底爆炸的火药桶。而美国那边这一年最热闹的事就是水门事件的发酵了，持续了整整一年。科技方面有几件事情值得一说。首先就是商用磁存储软盘在这一年被发明出来，虽然之前的1967年IBM就已经研制出了软盘，不过在1973年阿兰·舒加特（Alan Shugart）（同时也是1967年32英寸的软盘发明人）创建了舒加特联合公司，并将其缩减到了8英寸的版本之后，软盘才正式开始商业化大量售卖。不过这人的命运还是挺坎坷的，多次被自己创建的公司解雇，而且这算是题外话吧，他之后还创建了一个公司，运营一段时间后改名为希捷（Seagate），之后还是被踢了出去。之所以要说软盘这件事，是因为从1973年开始，个人电脑市场开始逐步的成型，而软盘是毫无疑问的核心存储器之一，在游戏史上也是极其重要的存储介质。科技界另一件重要发明，也是现在几乎人人都离不开的，就是手机了，准确的说是民用手机原型机（Dyna TAC，重约1.13公斤）在这一年被发明，发明人是马丁·劳伦斯·库帕（Martin Lawrence Cooper），当时他是摩托罗拉公司个人通信事业部门的一名技术工程师，现在也被认为是移动电话之父。
+movies文艺界影响后世游戏业界也有不少值得一说的。先说电影吧，这一年有两个电影我觉得影响了后世，首先就是《西部世界》，是的，后面那个同名电视剧实际上也是从这部电影而来。这部电影直接刻画出了一个由AI机器人组成的开放世界。另一个影响后世的则是其用像素化方式展示AI机器人视角，同时还将技术失控和AI是否是自由的，是否有人权摆在了大众面前。另一个就是《驱魔人》，宗教因素&#43;恐怖、封闭空间&#43;灵异异响&#43;吓一跳这两者都不是说电子游戏了，几乎成为后世一切恐怖刻画的典型范式。而说到驱魔人，再转回头说说日本那边，漫画鬼才永井豪于1972年创作了《恶魔人》，1973年则被誉为恶魔人大年，这一年让黑暗漫画这个概念深深地植入了当时不少年轻人的心中。当然那一年日本也不全是这么黑暗的，漫画之神手冢治虫在同年开始了《怪医黑杰克》的连载，应该是史上第一的医学相关的漫画，也是被誉为20世纪70年代三大不朽杰作之一，另两个其中一个就是上面说的《恶魔人》，另一个是1972年池田理代子开始连载的少女漫画《凡尔赛玫瑰》，这个没看过，不好评论。这一年还有一个动画片开播，一说名字就世人皆知的那种，就是这世界上最让人想拥有的蓝胖子——机器猫，啊，现在叫《哆啦A梦》了
+Anime &amp; Comic还有一部想说的日本电影，是改编自日本最著名科幻小说的电影，前后被多次改编成电影和电视剧的《日本沉没》，小说是由小松左京在同年推出的，成为当年日本第一畅销书，且第二年获得了第27届日本推理作家协会奖和第5届日本科幻文学星云奖，小松左京可以说是此后很长一段时间里日本最知名的科幻小说家。除了当年就被东宝改成电影外，第二年就被改编成电视剧，后又改编成广播剧、漫画和动画，并第二次再被改编成了电影和电视剧推出。整体来说，改编得都不怎么样，除了1974年的电视剧还可以看看，剩下的没必要浪费时间了，直接看小说更好。
+Sinking of Japan时代背景基本就这么多，看看这一年的游戏，首先从数量上来讲，整体突破了200款，为截至目前最多的一年，主要原因就是这一年出了一本书： 101个BASIC电脑游戏（101 BASIC Computer Games） ，编写这本书的是之前已经数次出现过的改编狂魔 戴维・H・阿尔（David H. Ahl） ，他在1969年开始将大量游戏改写为BASIC版本，而到了1973年，他将这些所有他见过的或者能找到作者的或者自己改编过的游戏集结成册，写了这本Type-in的著作，当然这些主要是作者在DEC内部能接触到的游戏。
+101 BASIC Computer Games我找到了这些代码网上的一个保存地址，在github用户maurymarkowitz那里，我则利用本身码农的优势，vibe coding一下形成了静态的html版本（大约耗了1M tokens），放到我的github上了，同时，如果是在http://deathxlent.github.io/上面看到这篇文章的话，右边会有悬浮框，也可以直接点进去在线玩玩，顺便我还放上了像素/拼豆化工具和pong的在线单机版本，都是我折腾的。如果有人能提供免费服务器资源，欢迎告知我，我可以将其改造为在线联机版本
+101 BASIC Computer Games静态html版由于已经改编成可以自行体验的，我就不详细一个一个说了，大致总结一下有以下6类：
+游戏类型 特点 代表作品 棋牌桌游类 复刻传统棋牌、牌类玩法，靠文本交互实现 21点（BLACKJACK）、国际象棋（CHESS）、扑克牌（POKER）、五子棋（GOMOKO） 模拟经营/策略类 资源管理、决策类玩法，考验规划能力 大富翁（MONOPOLY）、帝国管理（HAMURABI）、海战（BATTLE） 益智解谜类 逻辑推理、数学谜题、文字游戏 数字猜谜（HILO）、化学解码（CHEMSTR）、文字问答（LITQZ） 体育竞技类 模拟各类体育运动的对战/统计玩法。当然，还是文字交互的 棒球（BASEBAL）、篮球（BASKET）、拳击（BOXING） 动作/射击/冒险类 文本版“动作”游戏，靠指令控制角色/单位 飞机射击（ACEYDUCEY）、导弹发射（ROCKET2）、地牢探险（MONSTER） 工具/演示类 以教学、演示为目的的程序，兼具游戏性 生命游戏（LIFE）、伪随机数生成器、日历打印程序 除了这本书，本年还有20款Type-in类型的游戏">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:11003/images/0014/logo.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <div class="flex-l items-center">
+      
+      <a href="/directory/" class="directory-btn f6 fw4 no-underline white-80 hover-white mr3" title="文章目录">☰ 目录</a>
+      <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+        
+          &#39;广义&#39;电子游戏史
+        
+      </a>
+    </div>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+<style>
+  .directory-btn {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    line-height: 1.5;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .directory-btn:hover {
+    border-color: #fff;
+    background: rgba(255,255,255,0.1);
+  }
+</style>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">正史013：1973年的游戏（上）——Type-in</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="page-container ph3">
+    <header class="mt4">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">正史013：1973年的游戏（上）——Type-in</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-05-29T10:47:38+08:00">May 29, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="article-content nested-copy-line-height lh-copy serif f4 nested-links mid-gray"><p>在送别了1972年这电子游戏史上第一个奇迹年之后，迎来了1973年。这一年，既和平又动荡，越南战争正式签订了《巴黎和平协约》，但第四次中东战争带来的第一次石油危机却狠狠地阻挠了全世界的发展，而且这次战争所形成的格局和影响一直持续到现在，中东彻底成为一个一直在燃烧，不知何时会彻底爆炸的火药桶。而美国那边这一年最热闹的事就是水门事件的发酵了，持续了整整一年。科技方面有几件事情值得一说。首先就是商用磁存储软盘在这一年被发明出来，虽然之前的1967年IBM就已经研制出了软盘，不过在1973年阿兰·舒加特（Alan Shugart）（同时也是1967年32英寸的软盘发明人）创建了舒加特联合公司，并将其缩减到了8英寸的版本之后，软盘才正式开始商业化大量售卖。不过这人的命运还是挺坎坷的，多次被自己创建的公司解雇，而且这算是题外话吧，他之后还创建了一个公司，运营一段时间后改名为希捷（Seagate），之后还是被踢了出去。之所以要说软盘这件事，是因为从1973年开始，个人电脑市场开始逐步的成型，而软盘是毫无疑问的核心存储器之一，在游戏史上也是极其重要的存储介质。科技界另一件重要发明，也是现在几乎人人都离不开的，就是手机了，准确的说是民用手机原型机（Dyna TAC，重约1.13公斤）在这一年被发明，发明人是马丁·劳伦斯·库帕（Martin Lawrence Cooper），当时他是摩托罗拉公司个人通信事业部门的一名技术工程师，现在也被认为是移动电话之父。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0001_movies.JPG" alt="movies" title="movies" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>movies</figcaption>
+  </figure>
+</p>
+<p>文艺界影响后世游戏业界也有不少值得一说的。先说电影吧，这一年有两个电影我觉得影响了后世，首先就是《西部世界》，是的，后面那个同名电视剧实际上也是从这部电影而来。这部电影直接刻画出了一个由AI机器人组成的开放世界。另一个影响后世的则是其用像素化方式展示AI机器人视角，同时还将技术失控和AI是否是自由的，是否有人权摆在了大众面前。另一个就是《驱魔人》，宗教因素+恐怖、封闭空间+灵异异响+吓一跳这两者都不是说电子游戏了，几乎成为后世一切恐怖刻画的典型范式。而说到驱魔人，再转回头说说日本那边，漫画鬼才永井豪于1972年创作了《恶魔人》，1973年则被誉为恶魔人大年，这一年让黑暗漫画这个概念深深地植入了当时不少年轻人的心中。当然那一年日本也不全是这么黑暗的，漫画之神手冢治虫在同年开始了《怪医黑杰克》的连载，应该是史上第一的医学相关的漫画，也是被誉为20世纪70年代三大不朽杰作之一，另两个其中一个就是上面说的《恶魔人》，另一个是1972年池田理代子开始连载的少女漫画《凡尔赛玫瑰》，这个没看过，不好评论。这一年还有一个动画片开播，一说名字就世人皆知的那种，就是这世界上最让人想拥有的蓝胖子——机器猫，啊，现在叫《哆啦A梦》了</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0002_jap_ac.JPG" alt="Anime &amp; Comic" title="Anime &amp; Comic" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Anime &amp; Comic</figcaption>
+  </figure>
+</p>
+<p>还有一部想说的日本电影，是改编自日本最著名科幻小说的电影，前后被多次改编成电影和电视剧的《日本沉没》，小说是由小松左京在同年推出的，成为当年日本第一畅销书，且第二年获得了第27届日本推理作家协会奖和第5届日本科幻文学星云奖，小松左京可以说是此后很长一段时间里日本最知名的科幻小说家。除了当年就被东宝改成电影外，第二年就被改编成电视剧，后又改编成广播剧、漫画和动画，并第二次再被改编成了电影和电视剧推出。整体来说，改编得都不怎么样，除了1974年的电视剧还可以看看，剩下的没必要浪费时间了，直接看小说更好。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0003_sinking_of_japan.jpg" alt="Sinking of Japan" title="Sinking of Japan" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Sinking of Japan</figcaption>
+  </figure>
+</p>
+<p>时代背景基本就这么多，看看这一年的游戏，首先从数量上来讲，整体突破了200款，为截至目前最多的一年，主要原因就是这一年出了一本书： <strong>101个BASIC电脑游戏（101 BASIC Computer Games）</strong> ，编写这本书的是之前已经数次出现过的改编狂魔 <em><strong>戴维・H・阿尔（David H. Ahl）</strong></em> ，他在1969年开始将大量游戏改写为BASIC版本，而到了1973年，他将这些所有他见过的或者能找到作者的或者自己改编过的游戏集结成册，写了这本Type-in的著作，当然这些主要是作者在DEC内部能接触到的游戏。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0004_101-basic-computer-games.jpg" alt="101 BASIC Computer Games" title="101 BASIC Computer Games" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>101 BASIC Computer Games</figcaption>
+  </figure>
+</p>
+<p>我找到了这些代码网上的一个保存地址，在github用户<a href="https://github.com/maurymarkowitz/101-BASIC-Computer-Games">maurymarkowitz</a>那里，我则利用本身码农的优势，vibe coding一下形成了静态的html版本（大约耗了1M tokens），放到我的<a href="https://github.com/deathxlent/101-BASIC-Computer-Games">github</a>上了，同时，如果是在<a href="http://deathxlent.github.io/">http://deathxlent.github.io/</a>上面看到这篇文章的话，右边会有悬浮框，也可以直接点进去在线玩玩，顺便我还放上了像素/拼豆化工具和pong的在线单机版本，都是我折腾的。如果有人能提供免费服务器资源，欢迎告知我，我可以将其改造为在线联机版本</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0005_101_xlent_html.png" alt="101 BASIC Computer Games静态html版" title="101 BASIC Computer Games静态html版" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>101 BASIC Computer Games静态html版</figcaption>
+  </figure>
+</p>
+<p>由于已经改编成可以自行体验的，我就不详细一个一个说了，大致总结一下有以下6类：</p>
+<table>
+  <thead>
+      <tr>
+          <th>游戏类型</th>
+          <th>特点</th>
+          <th>代表作品</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>棋牌桌游类</td>
+          <td>复刻传统棋牌、牌类玩法，靠文本交互实现</td>
+          <td>21点（BLACKJACK）、国际象棋（CHESS）、扑克牌（POKER）、五子棋（GOMOKO）</td>
+      </tr>
+      <tr>
+          <td>模拟经营/策略类</td>
+          <td>资源管理、决策类玩法，考验规划能力</td>
+          <td>大富翁（MONOPOLY）、帝国管理（HAMURABI）、海战（BATTLE）</td>
+      </tr>
+      <tr>
+          <td>益智解谜类</td>
+          <td>逻辑推理、数学谜题、文字游戏</td>
+          <td>数字猜谜（HILO）、化学解码（CHEMSTR）、文字问答（LITQZ）</td>
+      </tr>
+      <tr>
+          <td>体育竞技类</td>
+          <td>模拟各类体育运动的对战/统计玩法。当然，还是文字交互的</td>
+          <td>棒球（BASEBAL）、篮球（BASKET）、拳击（BOXING）</td>
+      </tr>
+      <tr>
+          <td>动作/射击/冒险类</td>
+          <td>文本版“动作”游戏，靠指令控制角色/单位</td>
+          <td>飞机射击（ACEYDUCEY）、导弹发射（ROCKET2）、地牢探险（MONSTER）</td>
+      </tr>
+      <tr>
+          <td>工具/演示类</td>
+          <td>以教学、演示为目的的程序，兼具游戏性</td>
+          <td>生命游戏（LIFE）、伪随机数生成器、日历打印程序</td>
+      </tr>
+  </tbody>
+</table>
+<p>除了这本书，本年还有20款Type-in类型的游戏</p>
+<table>
+  <thead>
+      <tr>
+          <th>游戏名称</th>
+          <th>发行方/作者</th>
+          <th>发布日期</th>
+          <th>游戏简介</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>星际迷航（Star Trek）</strong></td>
+          <td><em><strong>戴维・H・阿尔（David H. Ahl）   玛丽·科尔（Mary Cole）</strong></em></td>
+          <td>—</td>
+          <td>同人星际迷航游戏，然后还被戴维・H・阿尔改编，并改名为SPCWAR收录进 <strong>《101 BASIC Computer Games》</strong></td>
+      </tr>
+      <tr>
+          <td><strong>乔托（Jotto）</strong></td>
+          <td><em><strong>安德里亚·巴什（Andrea Barsh）   达夫·库兰德（Duff Kurland）</strong></em></td>
+          <td>1973年4月2日</td>
+          <td>猜词游戏（类似 Mastermind，<a href="https://weibo.com/ttarticle/p/show?id=2309405239794443091970">《Type-in》</a> 那篇有介绍），玩家需猜出一个五字母单词，后来1975年移植到Altair 8800，1981年移植到PTC Sol-20</td>
+      </tr>
+      <tr>
+          <td><strong>21点（Blkjac）</strong></td>
+          <td><em><strong>DEC</strong></em></td>
+          <td>—</td>
+          <td>纯文字21点游戏，玩家与电脑（庄家）对赌，按拉斯维加斯赌场规则运行</td>
+      </tr>
+      <tr>
+          <td><strong>偶数制胜-数字版（Even Wins - Cybernetic Version）</strong></td>
+          <td><em><strong>埃里克·彼得斯（Eric Peters）</strong></em></td>
+          <td>—</td>
+          <td>这是一款由电脑和玩家轮流进行的游戏。双方都需要从一堆数量有限的奇数个物品中挑选物品。每轮游戏中，玩家可以挑选1到4个物品。当所有的物品都被拿走后，拥有偶数个物品的玩家获胜。AI会利用历史对局数据逐步学习最优策略</td>
+      </tr>
+      <tr>
+          <td>*<strong>24点（Blkjak）</strong></td>
+          <td><em><strong>汤姆·克卢斯（Tom Kloos）</strong></em></td>
+          <td>—</td>
+          <td>纯文字21点游戏，玩家与银行（电脑）对赌</td>
+      </tr>
+      <tr>
+          <td><strong>《星际迷航》的实验性高级版本（Experimental Advanced version of Startrek）</strong></td>
+          <td><em><strong>W. F. 鲁伯特（W. F. Lubbert）</strong></em></td>
+          <td>1973年5月17日</td>
+          <td>控制企业号飞船与克林贡战舰作战，含多种战术机动指令，81年移植到PTC Sol-20</td>
+      </tr>
+      <tr>
+          <td><strong>老虎机（Slots）</strong></td>
+          <td><em><strong>弗雷德·米拉贝尔（Fred Mirabelle）    鲍勃·哈珀（Bob Harper）</strong></em></td>
+          <td>1973年1月29日</td>
+          <td>老虎机模拟游戏，玩家可以自由选择1到100刀之间的任意金额进行投注</td>
+      </tr>
+      <tr>
+          <td><strong>回转滑雪(Slalom)</strong></td>
+          <td><em><strong>J. 帕内克（J. Panek）</strong></em></td>
+          <td>1973年3月8日</td>
+          <td>滑雪回转游戏，最多25个旗门，三种难度，按表现颁发金银铜牌</td>
+      </tr>
+      <tr>
+          <td><strong>超越百吉饼店（Beyond Bagels）</strong></td>
+          <td><em><strong>人民计算机公司（People&rsquo;s Computer Co.）</strong></em></td>
+          <td>1973年9月</td>
+          <td>玩家需要猜出一个三位数的密码。每次猜测后，玩家都会得到相应的分数：猜对一个数字得1分，如果该数字的位置也正确，则再得1分。</td>
+      </tr>
+      <tr>
+          <td><strong>按钮，按钮，谁拿着按钮呢？（Button, Button, Who&rsquo;s Got the Button?）</strong></td>
+          <td><em><strong>戴夫·考夫曼（Dave Kaufman）</strong></em></td>
+          <td>1973年9月</td>
+          <td>这是一种猜谜游戏：七个人围成一圈坐下，其中一人位于中间。中间的人需要猜出谁拥有那个“按钮”。每次猜测之后，被猜测的人会告诉中间人：自己是否拥有该按钮，或者按钮是否在自己的直接邻居手中，或者不提供任何信息。之后，该“按钮”要么保持原位，要么由拥有它的人传递给自己的直接邻居。当中间人猜出谁拥有该按钮时，游戏获胜。</td>
+      </tr>
+      <tr>
+          <td><strong>迷失在洞穴中（Lost in the Caves）</strong></td>
+          <td><em><strong>戴夫·考夫曼（Dave Kaufman）</strong></em></td>
+          <td>1973年9月</td>
+          <td>一款简单的文字冒险洞穴探索游戏。玩家身处一个拥有多条通道的洞穴中，必须通过反复尝试找到出口。游戏设有多个难度级别，对应不同大小的洞穴。</td>
+      </tr>
+      <tr>
+          <td><strong>洞穴2（Caves2）</strong></td>
+          <td><em><strong>戴夫·考夫曼（Dave Kaufman）</strong></em></td>
+          <td>1973年9月</td>
+          <td>与上面一作区别在于玩家在开始逃脱之前可以创建一个自定义洞穴，并让另一个玩家尝试逃脱。</td>
+      </tr>
+      <tr>
+          <td><strong>洞穴3（Caves3）</strong></td>
+          <td><em><strong>戴夫·考夫曼（Dave Kaufman）</strong></em></td>
+          <td>—</td>
+          <td>与上作对比就是新洞穴可以循环回到之前的洞穴，从而形成更复杂的迷宫。</td>
+      </tr>
+      <tr>
+          <td><strong>库比克5（Qubic5）</strong></td>
+          <td><em><strong>人民计算机公司（People&rsquo;s Computer Co.）</strong></em></td>
+          <td>1973年2月</td>
+          <td>4×4×4的立体井字棋，先连成四子者胜，这个在<a href="https://weibo.com/ttarticle/p/show?id=2309405239794443091970">《Type-in》</a> 一文也提到过原型，1975年移植到HP 2000</td>
+      </tr>
+      <tr>
+          <td><strong>斯纳克（Snark）</strong></td>
+          <td><em><strong>鲍勃·阿尔布雷希特（Bob Albrecht）</strong></em></td>
+          <td>1973年9月</td>
+          <td>这是一款解谜游戏，游戏中有一只怪兽隐藏在10×10的网格里。玩家需要通过猜测带半径的坐标来尝试找到它。每次猜测后，电脑会告知玩家怪兽是在指定圆圈内、圆圈外还是圆周上。当玩家以半径为零猜中正确坐标时，即可获胜。75年移植到HP 2000，77年移植到PTC Sol-20</td>
+      </tr>
+      <tr>
+          <td><strong>税务官（Taxman）</strong></td>
+          <td><em><strong>豪伊·富兰克林（Howie Franklin）</strong></em></td>
+          <td>1973年9月</td>
+          <td>这是一款益智游戏，玩家需要努力获得比税务官更多的分数。玩家可以决定一组数字的长度。随后玩家需在每一轮从数字列表中挑选一个数字。玩家选数后，税务官会获得该数字的所有因数。玩家不能挑选没有剩余因数的数字。当没有可走的步数时，税务官会获得所有剩余数字。若玩家最终得分高于税务官，即可获胜。75年移植到HP 2000，81年移植到PTC Sol-20</td>
+      </tr>
+      <tr>
+          <td><strong>零点（Zer0s）</strong></td>
+          <td><em><strong>人民计算机公司（People&rsquo;s Computer Co.）</strong></em></td>
+          <td>1973年2月</td>
+          <td>这是一款简单的策略益智游戏，玩家与电脑对弈，玩法与尼姆游戏有相似之处。游戏棋盘由一排8个零组成，零之间的位置标有1到7的数字。玩家和电脑轮流选择一个数字并搭建桥梁，相邻的桥梁不能再搭建。当玩家无可行操作时，直接判负</td>
+      </tr>
+      <tr>
+          <td><strong>直线加速赛车（Drag）</strong></td>
+          <td>未知</td>
+          <td>1973年10月</td>
+          <td>一款支持单人或双人游玩的直线加速赛车游戏。玩家可通过填写马力、后桥传动比、轮胎宽度和轮胎直径等参数来定制自己的直线加速赛车。比赛会根据设定的参数自动进行，期间玩家会定期收到两辆车的速度和行驶距离更新。电脑操控的赛车始终使用相同的设定。77年移植到PTC Sol-20</td>
+      </tr>
+      <tr>
+          <td><strong>偶数制胜（Even Wins）</strong></td>
+          <td>未知</td>
+          <td>—</td>
+          <td>上面介绍过规则了，这个电脑只会采用最优策略进行游戏。</td>
+      </tr>
+      <tr>
+          <td><strong>战鱼（Warfish）</strong></td>
+          <td><em><strong>兰迪·威特（Randy Witt）</strong></em></td>
+          <td>1973年2月9日</td>
+          <td>一款潜艇游戏。玩家操控一艘美国潜艇，需在第二次世界大战期间攻击日本舰艇。每回合玩家可选择下潜、使用潜望镜或发射鱼雷。玩家会遭遇多种类型的舰艇，必须管理有限的鱼雷储备，且不被日本舰艇击沉。77年移植到PTC Sol-20，79年移植到TRS-80</td>
+      </tr>
+  </tbody>
+</table>
+<p>以上为今年游戏最大头部分的Type-in类型游戏，可谓是爆发的一年，也被认为是Type-in文化诞生的一年，但还不是顶峰，当然贡献最大就是DEC的 <em><strong>戴维・H・阿尔（David H. Ahl）</strong></em> 了。</p>
+<p>然后继续说说上一年，也就是1972年诞生的另一个物种——家用主机的事情。这时仍然是米罗华的奥德赛一家独大，毕竟也没有第二家。由于<a href="https://weibo.com/ttarticle/p/show?id=2309405288756063371484">正史011：1972年的游戏（中）——家用游戏机</a>其实已经提前把所有游戏都讲了，这里也就不赘述了。12号卡、3号卡部分和5号卡部分游戏是这一年推出的。除此以外就是硬件部分了，它们分别是：</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0006_Kanal34.jpg" alt="Kanal-34" title="Kanal-34" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Kanal-34</figcaption>
+  </figure>
+</p>
+<p><strong>Kanal-34</strong> ，瑞典版</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0007_Odyssee.jpg" alt="Odyssee" title="Odyssee" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Odyssee</figcaption>
+  </figure>
+</p>
+<p><strong>Odyssee</strong> ，德国版，朗乐士（Schaub-Lorenz）公司代理销售</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0008_Odyssey.jpg" alt="Odyssey" title="Odyssey" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Odyssey</figcaption>
+  </figure>
+</p>
+<p>英国的 <strong>Odyssey</strong> ，由温达福德有限公司（Wendaford Ltd.）销售，与美版几乎一致，硬件只是铭牌可以区分，增加了一些说明书，和兼容英式电视</p>
+<p>以上都是1973年由官方合作推出的正式的国外版本米罗华奥德赛，而下面将要介绍两个不一样的。</p>
+<p>第一个是 <strong>Overkal</strong> ，西班牙版的米罗华奥德赛盗版机，由西班牙电子公司 <em><strong>Inter Electrónica</strong></em> 于 1973 年设计。1974年2月至3月上市，当年预估售价9000比塞塔，折合285元人民币；以当年购买力换算至当下，约合人民币10500元，纯纯高端盗版货。Overkal也常被视为首款欧洲电子游戏机，同时也是历史上首款盗版的游戏机，而且还是世界上第二款独立的家用游戏机。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0009_overkal.jpg" alt="Overkal" title="Overkal" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Overkal</figcaption>
+  </figure>
+</p>
+<p>游戏包括网球（Tenis）、足球（Futbol）、滑雪（Esqui）、水下攻防（Ataque submarino）、猫捉老鼠（Persecution）、模拟竞速（Carrera espacial）、轮盘赌（Ruleta）以及乒乓球（Tenis de Mesa）。游戏提供了两种尺寸的七种叠加层。所有原本为英文的文本都已被翻译成西班牙语。而游戏机还包含一组跳线，用于将不同电路连接在一起以运行游戏。在这里，游戏卡带被六个按钮取代，这些按钮的作用与卡带完全一致，同样实现电路连接。尽管原版奥德赛可通过额外的游戏卡带运行更多游戏，但这款盗版仅能通过按钮硬接线来运行游戏。而且手柄机身一体化同时还移除了射击配件与手球相关电路。<a href="https://prehistoricgaming.com/en/overkal-history/">这里</a>有一篇详细的关于这款主机的报道，其中还提到了奥德赛发明者拉尔夫・贝尔也曾评价其设计巧妙。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0015_cloner.JPG" alt="两位仿造者" title="两位仿造者" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>两位仿造者</figcaption>
+  </figure>
+</p>
+<p>本产品由 <strong>费利佩・莫尔・佩雷斯（Felipe Mor Pérez）</strong> 和 <strong>圣地亚哥・阿尔科查・诺格拉（Santiago Arcocha Noguera ）</strong> 为核心的团队设计制作，最早72年桑德斯公司就在西班牙申请了米罗华奥德赛的专利，但是一直到74年，专利被驳回了，因此上形成了一个法律真空期。Inter本身是希望合法获得授权进行生产并销售，但是米罗华则只想在欧洲有经销商，生产的油水还是自己赚。既然没有谈拢且没有专利保护，那Inter可就不客气了。1973年先后完成专利、商标、外观注册，同年12月完成产品说明书备案。但1974年初工厂爆发大规模劳资罢工导致上市延期。为了规避风险，保修卡上写的是有一家名为I.S.S.A.的公司地址，这其实是Inter Servicios, S.A.的首字母缩写，该公司是Inter的技术子公司。与米罗华不同，Inter直接选择了百货和商超出售，并可以邮购代销。但是同样由于过于高价（平均月工资3倍）和没有宣传，销量极其惨淡，虽然一直卖到77年，但也是没有成功。</p>
+<p>写到这里已经完成了1973年Type-in和家用机类型的梳理，似乎对比以前每一篇都少说了一个东西，就是国际象棋比赛，不是我忘了，而是就比赛来讲总共举办了四届，四届冠军都是一个团队，是的，还是你在前面一直看到的那个 <em><strong>拉里·阿特金（Larry Atkin）</strong></em> 和 <em><strong>大卫·斯莱特（David Slate）</strong></em> 制作的软件，已经升级到了 <strong>象棋4.0版本（Chess Ver.4.0）</strong> 。这个版本使用COMPASS语言（CDC的汇编语言）进行了全面重写，实现了从香农B型到香农A型的范式转变。而且运行环境也升级到了控制数据公司（Control Data Corporation）的超级计算机系列上，包括CDC 6600和CDC Cyber上。</p>
+<p>说回比赛，美国计算机象棋锦标赛（ACM North American Computer Chess Championship）第四届的参与团队扩充到了上届的1.5倍，足足12个参赛队伍，新面孔也有不少，我还是整理一个表来展示一下新面孔：</p>
+<table>
+  <thead>
+      <tr>
+          <th>游戏名称</th>
+          <th>主要作者</th>
+          <th>简介</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>技术国际象棋程序2（Tech 2）</strong></td>
+          <td><em><strong>艾伦·贝斯利（Alan Baisley）</strong></em></td>
+          <td>作为麻省理工学院的学生，其之前就已经了解了去年参赛的 <strong>Tech</strong> 算法后，在PDP-10计算机上用汇编语言实现了新的版本，比前辈速度和能力都有一定提升。就手说一句，Tech也参加了这届的比赛，成绩低于Tech2</td>
+      </tr>
+      <tr>
+          <td><strong>达特茅斯国际象棋程序（Dartmouth CP）</strong></td>
+          <td><em><strong>拉里·哈里斯（Larry Harris）</strong></em> 、 <em><strong>沃伦·蒙哥马利（Warren Montgomery）</strong></em></td>
+          <td>实际上是由哈里斯教授领导的团队，最主要贡献者是蒙哥马利，还有丹尼·科佩克（Danny Kopec）、哈尔·特里（Hal Terrie）、戴维·莱夫纳（David Levner）等合作开发</td>
+      </tr>
+      <tr>
+          <td><strong>贝儿（Belle）</strong></td>
+          <td><em><strong>肯·汤普森（Ken Thompson）</strong></em> 、 <em><strong>乔·康登（Joe Condon）</strong></em></td>
+          <td>由贝尔实验室的肯·汤普森和乔·康登共同开发的，由专用硬件及相关软件构成，本质上是一种纯粹的“暴力计算”方式，当然这时还是一个软件，由于是头一次参加比赛，表现一般。但后来逐渐开发演变成一种混合式国际象棋专用计算机，并且后面五次赢得ACM冠军，不过那是后话了</td>
+      </tr>
+      <tr>
+          <td><strong>加利福尼亚理工学院国际象棋程序（Ga Tech CP）</strong></td>
+          <td><em><strong>劳伦斯·富特雷尔（Lawrence Futrell）</strong></em></td>
+          <td>用Algol语言编写的，当时是在乔治亚理工学院的Burroughs B-5500计算机上运行的</td>
+      </tr>
+      <tr>
+          <td><strong>狐狸（The Fox）</strong></td>
+          <td><em><strong>查理·威尔克斯（Charlie Wilkes）</strong></em> 、 <em><strong>查尔斯·F·威尔克斯（Charles F. Wilkes）</strong></em></td>
+          <td>由威廉与玛丽学院的查理·威尔克斯和他的父亲，同时也是IBM员工查尔斯·F·威尔克斯共同用APL语言编写的国际象棋程序。参见注1</td>
+      </tr>
+      <tr>
+          <td><strong>切斯（Ches）</strong></td>
+          <td><em><strong>大卫·巴顿（David Barton）</strong></em> 、 <em><strong>克雷格·巴恩斯（Craig Barnes）</strong></em> 、 <em><strong>彼得·罗（Peter Rowe）</strong></em></td>
+          <td>运行在HP 3000上，第一次参赛，结果垫底</td>
+      </tr>
+  </tbody>
+</table>
+<p>注1：值得一说的是他们的灵感来源于 <em><strong>乔治·R·R·马丁（George R. R. Martin）</strong></em> 在1972年8月的《模拟科幻与事实》杂志上发表的文章《电脑就是一条鱼》（<a href="https://weibo.com/ttarticle/p/show?id=2309405271397202264316">正史009：商业化</a>里提到过）。他们开始独立编写自己的国际象棋程序，但由于并不了解其他人是如何编写这类程序的，一切都是自己捉摸着来，最后还发明了独特的“阿尔法-贝塔剪枝”算法。在比赛模式下，该程序会先考虑前两步的所有可能走法，然后再评估并选择接下来的三步中最优的走法。这样，整个搜索过程的深度就达到了五步。结果在1973年比赛中，他们使用了IBM 370/145计算机参赛，第一轮中击败了Tech 2。但是到了周一由于分时系统上用户过多而他们算法很耗算力，最终只能放弃比赛，因此后两场比赛都被判输了，而Tech 2最终排名是并列第2名
+注1：值得一说的是他们的灵感来源于 <em><strong>乔治·R·R·马丁（George R. R. Martin）</strong></em> 在1972年8月的《模拟科幻与事实》杂志上发表的文章《电脑就是一条鱼》（<a href="https://weibo.com/ttarticle/p/show?id=2309405271397202264316">正史009：商业化</a>里提到过）。他们开始独立编写自己的国际象棋程序，但由于并不了解其他人是如何编写这类程序的，一切都是自己捉摸着来，最后还发明了独特的“阿尔法-贝塔剪枝”算法。在比赛模式下，该程序会先考虑前两步的所有可能走法，然后再评估并选择接下来的三步中最优的走法。这样，整个搜索过程的深度就达到了五步。结果在1973年比赛中，他们使用了IBM 370/145计算机参赛，第一轮中击败了Tech 2。但是到了周一由于分时系统上用户过多而他们算法很耗算力，最终只能放弃比赛，因此后两场比赛都被判输了，而Tech 2最终排名是并列第2名</p>
+<p>除了参赛的众位以外还有一款叫做 <strong>农夫（Peasant）</strong> 的为研究国际象棋残局的人工智能而编写的游戏，只有国王和兵的国际象棋对局，其他的国际象棋的规则保持不变，由 <em><strong>门罗·纽伯恩(Monroe Newborn)</strong></em> 、 <em><strong>以色列·戈尔德（Israel Gold）</strong></em> 、 <em><strong>莱昂·皮亚塞茨基（Leon Piasetski）</strong></em> 制作</p>
+<p>接下来我打算再讲讲1973年其他的电脑游戏，先说一个早年的对话游戏，叫做 <strong>伊卡拉（Ecala）</strong> ，由 <em><strong>唐·L·达格洛（Don L. Daglow）</strong></em> 基于 <strong>伊利扎（Eliza）</strong> （最早的可以进行自然语言对话的程序）增强改编而来。算是ChatGPT的老前辈了。</p>
+<p>1972年，人类进行了至今（2026年6月）为止最后的一次登月，但是登月的游戏还是在不断的更新的，<em><strong>杰克·伯内斯（Jack Burness）</strong></em> 在DEC工作的时候接触到了文字版的登月类游戏，于是他进行了复杂设计后制作了首款图像化的 <strong>月球着陆者（Moonlander）</strong> ，通过计算后以矢量图形方式呈现了月球多山地形的侧视图。着陆器会持续向下坠落，玩家则需确保它能以适中的速度平稳降落在平坦的表面上。玩家可使用光笔调节推进器的方向和油门大小。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0010_Moonlander.JPG" alt="Moonlander" title="Moonlander" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Moonlander</figcaption>
+  </figure>
+</p>
+<p>这一年还有一个动画影响了北美大陆的不少青少年，就是星际迷航的动画版，而同年则由<em><strong>威廉·K·查尔(William K. Char)</strong></em> 、 <em><strong>佩里·李(Perry Lee)</strong></em> 、 <em><strong>丹·吉(Dan Gee）</strong></em> 制作了一款 <strong>星际迷航73（Trek73）</strong> 的同人游戏。游戏灵感源自桌游《星际舰队战（the Star Trek franchise）》，为单人对战电脑的游戏，玩家与电脑均需输入指令（发射相位炮、改变航线、发射反物质荚舱、投降等），随后所有指令会同时执行。每回合玩家总共可执行31种不同的行动，游戏会持续进行到某一方被摧毁、被智取或主动投降为止。后来1985年被移植到DOS上面。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0011_trek73_dos.png" alt="Trek73（DOS版截图）" title="Trek73（DOS版截图）" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Trek73（DOS版截图）</figcaption>
+  </figure>
+</p>
+<p>接下来是一个被移植了很多遍的游戏 <strong>反转（Reverse）</strong>，由 <em><strong>彼得·塞申斯（Peter Sessions）</strong></em> 在这年5月推出，这是一款益智游戏，玩家需要在尽可能少的步数内，将一组数字（1到9）按数字顺序排列。唯一的规则是玩家只能从左侧开始反转数字，每一轮可以反转的数字数量由玩家自行决定。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0012_Reverse.gif" alt="Reverse" title="Reverse" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Reverse</figcaption>
+  </figure>
+</p>
+<p>类似的益智游戏还有一个，是 <em><strong>安德里亚·巴什（Andrea Barsh）</strong></em> 、 <em><strong>达夫·库克兰(Duff Kurkland)</strong></em> 在1973年3月24日推出的 <strong>艾西·杜西（Acey Duecey）</strong> ，这个游戏也是他俩成立公司后的第一个产品，这是一款猜纸牌游戏。玩家会拿到两张牌，然后下注，赌第三张牌的点数是否介于手中两张牌的点数之间，1981年移植到Sol-20</p>
+<p>这一年还有两个多人游戏值得提一下，一个是 <em><strong>路易斯·A·布鲁姆菲尔德（Louis A. Bloomfield）</strong></em> 制作的基于PLATO网络的多人迷宫游戏。玩家必须设法将自己的角色从己方基地移动到对手的基地，且要比对手先完成这一动作，名字也很直接，就叫 <strong>迷宫战争（Mazewar）</strong>。</p>
+<p>而另一款要说的多人游戏是邮寄游戏（Play-by-mail game），还是由 <a href="https://weibo.com/ttarticle/p/show?id=2309405263418071580807">正史008：说说simulator</a> 里面提到的  <em><strong>飞翔水牛公司（Flying Buffalo Inc.）</strong></em> 推出的最多8名玩家的邮政对战游戏： <strong>董事会（Board of Directors）</strong> ，由 <em><strong>理查德·F·卢米斯（Richard F. Loomis）</strong></em> 设计，对应管理程序则由 <em><strong>史蒂夫·麦格雷戈（Steve MacGregor）</strong></em> 编写。这是一款风格类似《管理游戏(The Management Game)》（<a href="https://weibo.com/ttarticle/p/show?id=2309405180699463516365">正史003：第一款系列游戏</a> 提到过）的教育类游戏。游戏将玩家（通常是一个班级）分为十个小组。每个小组扮演一家生产某款产品的公司。玩家必须为公司制定决策，比如为产品定价、开展推广、安排生产以及进行研发。每一轮结束后，每个小组都会收到一份财务报表，用以显示公司的经营状况。</p>
+<p>最后一款，应该说一系列要介绍的就是 <em><strong>帝国一世（Empire I）</strong></em> 、<em><strong>帝国二世（Empire II）</strong></em> 、<em><strong>帝国三世（Empire III）</strong></em> 三款游戏。由 <em><strong>约翰·D·戴尔斯克（John D. Daleske）</strong></em> 制作， <em><strong>塞拉斯·S·沃纳（Silas S. Warner）</strong></em> 在不同版本也提供了帮助。1973年5月发布的第一款游戏是由最多八名玩家参与，作为帝国负责人，也就是皇帝来操控管理各自的行星。屏幕上会显示每位玩家所控制的行星和宇宙飞船，以及有关经济、人口、制造业和贸易的信息。而宇宙飞船可用于运输货物、发起攻击以及运送军事力量。最终目标自然是统一整片宇宙，成为唯一的帝国帝王。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0013_Empire_I.png" alt="Empire I" title="Empire I" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Empire I</figcaption>
+  </figure>
+</p>
+<p>而二代在1973年9月发布，变成了一款战术射击游戏，最多50名玩家分属8艘战舰，争夺对银河系的控制权。玩家可直接操控宇宙飞船，且完全摒弃了经济模拟系统。与单屏呈现的前作不同，本作拥有8×8个星域构成的游戏世界，玩家可从上往下的视角在其中自由飞行。星际飞船遵循物理定律，保留着自身的惯性。要让飞船减速，必须反向旋转并施加推力来抵消惯性力。鱼雷会朝着飞船的移动方向发射。三代则是二代的延续，在优化游戏性能的同时从多个方面对玩法进行了拓展。玩家的飞船如今会停留在屏幕中央，同时加入了周期性的画面滚动效果。太空不再在地图边缘实现循环衔接，地图因此拥有了严格的边界。小地图则会显示玩家在整个太空区域的位置。飞船仍会保持原有速度，想要减速则需将其转向反向并向反方向推进。转向并非瞬间完成，需要花费一定时间。飞船可发射鱼雷和相位炮，以此尝试击中敌方飞船。</p>
+<p>
+  <figure align='center'>
+	  <img src="/images/0014/0014_Empire_III.png" alt="Empire III" title="Empire III" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
+	<figcaption>Empire III</figcaption>
+  </figure>
+</p>
+<p>至此，1973年的部分游戏都介绍完了，之所以说是部分，是因为还有60来个街机游戏没有介绍，而梳理这些街机游戏也是一个大工程，so，下回见</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+  </article>
+  <style>
+    .page-container { width: 80%; margin: 0 auto; }
+    @media (max-width: 60em) { .page-container { width: 92%; } }
+    .article-content img {
+      max-width: 70%;
+      max-height: 600px;
+      width: auto;
+      cursor: pointer;
+    }
+    .article-content figure {
+      max-width: 70%;
+      margin: 1.5rem auto;
+      text-align: center;
+    }
+    .article-content figure img {
+      max-width: 100%;
+      max-height: 600px;
+      width: auto;
+      cursor: pointer;
+    }
+    .lightbox-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.85);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      animation: fadeIn .2s;
+    }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .lightbox-overlay img {
+      max-width: 90vw;
+      max-height: 90vh;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.article-content img').forEach(function(img) {
+      img.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        var overlay = document.createElement('div');
+        overlay.className = 'lightbox-overlay';
+        overlay.innerHTML = '<img src="' + this.src + '" alt="">';
+        overlay.addEventListener('click', function() { overlay.remove(); });
+        document.body.appendChild(overlay);
+      });
+    });
+  });
+  </script>
+  
+<div class="floating-sidebar">
+  <div class="floating-sidebar-title">有点东西</div>
+  <ul class="floating-sidebar-links">
+    
+    <li><a href="/sites/bead-maker/index.html" target="_blank" rel="noopener">图片像素/拼豆化</a></li>
+    <li><a href="/sites/pong/index.html" target="_blank" rel="noopener">PONG</a></li>
+    <li><a href="/sites/101-BASIC-Computer-Games/index.html" target="_blank" rel="noopener">101-BASIC-Computer-Games</a></li>
+  </ul>
+</div>
+
+<style>
+  .floating-sidebar {
+    position: fixed;
+    right: 24px;
+    top: 120px;
+    width: 160px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 12px 0;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    z-index: 100;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .floating-sidebar-title {
+    padding: 4px 16px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .floating-sidebar-links {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0 0;
+  }
+  .floating-sidebar-links li {
+    padding: 4px 16px;
+  }
+  .floating-sidebar-links li + li {
+    margin-top: 6px;
+  }
+  .floating-sidebar-links a {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    line-height: 1.6;
+    transition: color 0.15s;
+  }
+  .floating-sidebar-links a::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    mask-size: contain;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    -webkit-mask-size: contain;
+    vertical-align: middle;
+    opacity: 0.6;
+  }
+  .floating-sidebar-links a:hover {
+    color: #0074d9;
+  }
+  .floating-sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .floating-sidebar::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 2px;
+  }
+  @media (max-width: 60em) {
+    .floating-sidebar {
+      display: none;
+    }
+  }
+</style>
+
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:11003/" >
+    &copy;  '广义'电子游戏史 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

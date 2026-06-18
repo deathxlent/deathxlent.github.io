@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6403&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=11003&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -98,10 +98,10 @@
     
 
     
-      <link rel="canonical" href="http://localhost:6403/posts/0010_commercialization/">
+      <link rel="canonical" href="http://localhost:11003/posts/0010_commercialization/">
     
 
-    <meta property="og:url" content="http://localhost:6403/posts/0010_commercialization/">
+    <meta property="og:url" content="http://localhost:11003/posts/0010_commercialization/">
   <meta property="og:site_name" content="&#39;广义&#39;电子游戏史">
   <meta property="og:title" content="正史009：商业化">
   <meta property="og:description" content="终于，本系列来到了一个特别的年份，之所以说是特别，是因为很多介绍电子游戏的书籍或者文章更喜欢从这年开始介绍，然后以回顾的方式提几句之前的游戏。原因也很简单，这一年被定义为 电子游戏商业化元年 ，也就是说，从1971年开始，电子游戏这个产业正式的出现在了历史舞台之中，并且会以很多人意料意外的速度飞速发展。
@@ -151,15 +151,19 @@
   
   
   
-  <header class="contain bg-top" style="background-image: url('http://localhost:6403/images/logo-long.png');">
+  <header class="contain bg-top" style="background-image: url('http://localhost:11003/images/logo-long.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+    <div class="flex-l items-center">
       
-        &#39;广义&#39;电子游戏史
-      
-    </a>
+      <a href="/directory/" class="directory-btn f6 fw4 no-underline white-80 hover-white mr3" title="文章目录">☰ 目录</a>
+      <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+        
+          &#39;广义&#39;电子游戏史
+        
+      </a>
+    </div>
     <div class="flex-l items-center">
       
 
@@ -169,6 +173,22 @@
     </div>
   </div>
 </nav>
+
+<style>
+  .directory-btn {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    line-height: 1.5;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .directory-btn:hover {
+    border-color: #fff;
+    background: rgba(255,255,255,0.1);
+  }
+</style>
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
@@ -182,8 +202,8 @@
       
   
   
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
+  <article class="page-container ph3">
+    <header class="mt4">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           
         Posts
@@ -198,13 +218,13 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>终于，本系列来到了一个特别的年份，之所以说是特别，是因为很多介绍电子游戏的书籍或者文章更喜欢从这年开始介绍，然后以回顾的方式提几句之前的游戏。原因也很简单，这一年被定义为 <strong>电子游戏商业化元年</strong> ，也就是说，从1971年开始，电子游戏这个产业正式的出现在了历史舞台之中，并且会以很多人意料意外的速度飞速发展。</p>
+    <div class="article-content nested-copy-line-height lh-copy serif f4 nested-links mid-gray"><p>终于，本系列来到了一个特别的年份，之所以说是特别，是因为很多介绍电子游戏的书籍或者文章更喜欢从这年开始介绍，然后以回顾的方式提几句之前的游戏。原因也很简单，这一年被定义为 <strong>电子游戏商业化元年</strong> ，也就是说，从1971年开始，电子游戏这个产业正式的出现在了历史舞台之中，并且会以很多人意料意外的速度飞速发展。</p>
 <p>不过在说这些之前还是按惯例来说说1971年的世界是什么样子的，这对理解电子游戏的发展是有益的。当然，中国历史暂时不太涉及，一个是有可能说了本系列文就没了，二是相当长时间中国也没有电子游戏产业一说。毕竟这是我自己的游戏史文章，我可以随便的夹带私货，要是想关注同时期中国在干什么的话，我推荐B站的<a href="https://space.bilibili.com/49246269">大象放映室</a>，啊，<a href="https://weibo.com/u/1844937292">微博</a>也有。不过这一年中美关系破冰，中国重返联合国都是对我国非常有意义的大事，只不过和电子游戏没关，就暂时跳过了。</p>
 <p>这一年有一件划时代的作品诞生于世，它的历史意义以及给这个公司带来的影响要若干年后才被正确认知。这个公司当时并不大，而且一直在做存储芯片，这是他们制作的第一个CPU，这就是Intel的4004，也是世界上第一款商用CPU。最初只是为一个日本公司Busicom的计算器设计制作，但是技术设计上有问题，Intel内部认为有其他更重要的事情要做，所以这个项目需要延期交付（其实是压根都没开始做）。日本人嘛，能bb一定要bb，要求Intel必须打折以赔偿，而且投资的钱要返还一部分。最后在讨价还价之后，Intel同意了很多看似恶心的条件（还有一个说法是当时Busicom也没钱支付），但是却附加上了回购除计算器外的所有芯片设计制作权利，并允许Intel在除计算器芯片市场之外的其它市场上自由出售4004芯片。而在此之前4001（ROM）、4002（RAM）、4003（寄存器及IO）都已经开发出来了，意味着一台电脑所必须的东西在商业购买方面都已齐全，而这四个合起来就被称为MCS-4芯片组（MCS-4 chipset）。整个4004的封装仅一寸见方，但是能力确是要比1946年占据整个屋子的电脑要强大很多，从此，人类正式进入了微电脑时代，而Intel也正式开始转型为一个全能的半导体芯片公司，一个由芯片、由硅基设备驱动的新时代即将来临。</p>
 <p>而这一年日本这边也有两个要说的东西，一个是石森章太郎原作、东映制作的《假面骑士》系列，重新定义了日本特摄，也是和奥特曼齐名的特摄长寿特摄剧集（后面还有超级战队，并称为特摄三杰），至今仍在推出。和奥特曼不同，假面骑士不是巨人，都是改造人，并不代表着光这种象征希望的意义，而是拥有着痛苦、孤独、自我怀疑等更人性的特点。而且摩托文化、“来打kick”、特殊变身都为后世的模仿致敬留下了非常多的精彩镜头。另一个值得说的就是加藤一彦的《鲁邦三世》，这是一个纯粹给成人看的主流动画，主角再也不是一个伟光正，而是现在意义上的标准反英雄，并且全能单打独斗这种传统也被解构成为黄金搭档组合，尤其是鲁邦（领袖/大脑/全能）+次元大介（神枪手/硬汉/远程）+峰不二子（蛇蝎美人/亦敌亦友/情报收集）+石川五右卫门（武士/冷兵器/近战）被后续多个作品借鉴，形成了一个固定的搭配范式（其实你想想碟中谍之类的电影也能想出来）。鲁邦与钱形幸一警部互相追逐及协助，既是对抗也是羁绊，也影响了后续很多主角和对手的设定。其基本不拘泥于任何一种传统类型片，而是所有的都包括的方式（往少了说至少有盗窃、动作、喜剧、悬疑、间谍、西部、武士、追逐）也影响了后续很多无厘头动画，最明显的，我说的不是别人，就是你，Gintama，无节操底线才是真正的银魂。同样内容成人向，并采用<a href="https://www.bilibili.com/video/BV1XT4y1u7v6/">爵士和摇滚的音乐</a>，打破了动画低龄化偏见，也带来了后面日本动画界一次大规模的成人向动画大爆发，当然，我说的是正经成人向，就是攻壳机动队、星际牛仔、东京教父等等等等。顺便说一句，中国人中知名度最高的姓宫崎的宫崎骏也是在鲁邦三世系列里面监督出道的，当然，不是1971年，还要很久以后。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0000_background.png" alt="假面骑士和鲁邦三世" title="假面骑士和鲁邦三世">
+	  <img src="/images/0010/0000_background.png" alt="假面骑士和鲁邦三世" title="假面骑士和鲁邦三世" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>假面骑士和鲁邦三世</figcaption>
   </figure>
 </p>
@@ -278,7 +298,7 @@
 <p>运动类也有疑似老面孔的游戏出现，比如 <strong>棒球（Baseball）</strong> 由 <em><strong>唐·L·达格洛（Don L. Daglow）</strong></em> 在DEC PDP-10上面编写，不过这个游戏据说是一直没有正式发布（给公众或收费），该游戏后来也可以运行在穿孔卡的IBM 360/40上。作者还在1980年代初将其移植到Apple II平台，而且该游戏最后成为Intellivision“美国职业棒球世界大赛”这个游戏的基础。游戏本身值得说的也就这些了，不过作者还是要提一下</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0001_Don-Daglow-2022.jpg" alt="Don L. Daglow" title="Don L. Daglow">
+	  <img src="/images/0010/0001_Don-Daglow-2022.jpg" alt="Don L. Daglow" title="Don L. Daglow" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Don L. Daglow</figcaption>
   </figure>
 </p>
@@ -296,7 +316,7 @@
 <p>很强是吧，这可是电子游戏界活着的传奇，另一个让我必须要提的就是老爷子对电子游戏的爱是发自真心的，不仅仅是参与，他还对所有电子游戏相关人士都有很大关怀，不仅仅是培养了很多人才，他还做了一个其他人都没有做的事情，就是这个：<a href="https://daglowslaws.com/in-memoriam-games-industry-passed-away-html/">唐·达格洛的游戏产业纪念名单</a></p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0002_memory_list.png" alt="Don Daglow’s Games Industry Memorial List" title="Don Daglow’s Games Industry Memorial List">
+	  <img src="/images/0010/0002_memory_list.png" alt="Don Daglow’s Games Industry Memorial List" title="Don Daglow’s Games Industry Memorial List" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Don Daglow’s Games Industry Memorial List</figcaption>
   </figure>
 </p>
@@ -306,7 +326,7 @@
 <p>而在1969年，这位叫做 <em><strong>迈克·梅菲尔德（Mike Mayfield）</strong></em> 的同学在看过在他认为一般般的第三季结局之后，他觉得自己应该做点什么，但是又不知道该做什么和怎么动手，毕竟那个年代的电脑基本上只有大学、政府、军队、研究院才有，而一个刚刚念完高二的学生基本上除了上课老师可能提一句以外是没什么机会来碰触的。但恰巧，在同年就在他的高中边上的加州大学尔湾分校想展示一下PDP-1的能力，那里的学生和老师采用了 <strong>《太空大战！》(Spacewar!)</strong> 来达到这个目的，而迈克则在这次展示中被震撼了，在屏幕上面操作企业号来进行战斗的念头就因在了脑海里。回去之后据本人回忆，他和同学脑暴了很多要制作一个星际迷航游戏的电子，但是一个是没有技术力，二是也没有机会碰到电脑，似乎这些都是镜花水月。但最终，他通过了重重关系，向一位加州大学尔湾分校学生借了一个账号（这是违规的操作，当然，他本人有两次说法不一致，一次说是借，另一次说是他弄到的，怎么弄到的没说）。他可以通过ASR-33电传打字机来连接加州大学尔湾分校的SDS Sigma 7机器，电传打字机你可以认为是一个实体的命令行终端，开机自检完毕后，是可以通过键盘输入用户名密码来登录远程机器，然后机器的回显不是在现在大家都熟悉的屏幕上，而是通过打印方式打印出来。而由于是借到的账号，且这个账号的权限还不高，连存储的权限都没有，迈克还要在学习编程（BASIC）并编写代码后用纸带保存下来所写的东西，下次再通过电传打字机将代码读取回去，效率极低。不过就在这种环境下，他终于在1971年完成了他的首个电子游戏 <strong>星际迷航（Star Trek）</strong> 。不过碍于他只能通过电传打字机进行交互，这款游戏和他设想的有图形界面，并可手动操作差距极大，而且电传的速度也让人很受煎熬（每秒10字符）。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0003_star_trek.png" alt="Star Trek（后来的模拟版本）" title="Star Trek（后来的模拟版本）">
+	  <img src="/images/0010/0003_star_trek.png" alt="Star Trek（后来的模拟版本）" title="Star Trek（后来的模拟版本）" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Star Trek（后来的模拟版本）</figcaption>
   </figure>
 </p>
@@ -316,7 +336,7 @@
 <p>说完了科幻的宇宙，说说地球上的事情，美国在1840-1869年间是一个生机勃勃万物竞发的世界，那里的人们开始盛行“天定命运”思想，认为美国注定要横跨北美大陆。随着得州并入美国、紧接着美墨战争、加州淘金热的兴起、美国内战等一系列事件后，美国进入了战后大重建的时代。同时1869第一条横贯大陆铁路建成（金钉仪式），连接东西海岸，极大促进经济与人口流动。而在这个铁路建成之前，美国的大西进路线最出名的则是被叫做 <strong>俄勒冈之路（The Oregon Trail）</strong> 的走线路径。按照现在的说法，从密苏里州独立城（Independence, Missouri）开始，终点为俄勒冈城（Oregon City），途经堪萨斯、内布拉斯加、怀俄明、爱达荷，最终进入俄勒冈州，全长约2170英里（3490公里）。根据史料有50余万人通过这一路径走线去西部寻求土地与新生活。1845年，弗朗西斯・帕克曼（Francis Parkman）在前一年欧洲旅行之后，从哈佛法学院毕业，并游览了整个美国西北部的遗址，并从第二年沿着俄勒冈之路进行考察，这位后世认为很有历史意义的历史学家在1847年完成了整体考察后开始记录自己的所见所想，并于1849年写出了《加州和俄勒冈之路（The California and Oregon Trail）》后来简化为《俄勒冈之路（The Oregon Trail）》，这本书详细记录了移民潮中的物资短缺、疾病传播等生存困境，同时还细致的记录了自己的地理考察，被视作美国西部历史研究的重要文献之一。后续还有对应的电影和教材推出，而这条路线后来又被称为俄勒冈国家历史路线（Oregon National Historic Trail）</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0004_The_Oregon_Trail.png" alt="The Oregon Trail" title="The Oregon Trail">
+	  <img src="/images/0010/0004_The_Oregon_Trail.png" alt="The Oregon Trail" title="The Oregon Trail" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>The Oregon Trail</figcaption>
   </figure>
 </p>
@@ -328,21 +348,21 @@
 </code></pre><p>wasd和空格键有用，知道这点就可以体验了，当然这个不是原版。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0008_Bill_Pitts_and_Hugh_Tuck.png" alt="Bill·Pitts &amp; Hugh·Tuck" title="Bill·Pitts &amp; Hugh·Tuck">
+	  <img src="/images/0010/0008_Bill_Pitts_and_Hugh_Tuck.png" alt="Bill·Pitts &amp; Hugh·Tuck" title="Bill·Pitts &amp; Hugh·Tuck" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Bill·Pitts &amp; Hugh·Tuck</figcaption>
   </figure>
 </p>
 <p><a href="https://weibo.com/ttarticle/p/show?id=2309405249562813530233">正史007：登月</a>也提到过，这个游戏又被重建成为联网对战游戏，而在斯坦福大学，刚刚毕业于人工智能实验室(SAIL)的学生 <em><strong>比尔·皮茨（Bill·Pitts）</strong></em> 和他的朋友 <em><strong>休·塔克（Hugh·Tuck）</strong></em> 在1971年夏天开始研究起怎么用Spacewar!赚钱。他们思路是这个如果能做成投币游戏的话，应该是可行的。但是要知道按照历史断代来讲，1971年正好是一个分水岭，1972年标志着大规模集成电路的出现，而在1971年，电脑仍然还是及其昂贵且巨大的设备，如果想赚钱的话，显然成本是一个不得不考虑的问题。而恰巧1970年DEC制作了第一款16位通用小型机<a href="/images/0010/0005_PDP11-20_Price_List_19701101.pdf">PDP 11/20</a>，这款机器基础价格相对低廉（10800刀，购买力约合现在的60万人民币），而且是从8位迈向16位、从复杂I/O走向统一总线的转折点，同时还在这一系列上诞生了最重要的操作系统——Unix，上一篇提到了就不多说了。皮茨和塔克二人研究之后觉得这是一个机会，他们成立了一个叫做 <em><strong>计算机娱乐（Computer Recreations）</strong></em> 公司，并通过公司下单方式，用13000美元获得了PDP-11的低端版，并把最新的PDP-10版本游戏重新编写成了能在新机器运行的版本，再加上后续的两个惠普1300A静电矢量显示器、核桃贴面柜和其他部件，最终单台机器花费约为两万刀，折合现在110万人民币左右。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0006_galaxy_game_arcade.jpg" alt="Galaxy-Game" title="Galaxy-Game">
+	  <img src="/images/0010/0006_galaxy_game_arcade.jpg" alt="Galaxy-Game" title="Galaxy-Game" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Galaxy-Game</figcaption>
   </figure>
 </p>
 <p>制作完这台后，他俩将其摆放在斯坦福大学的学生会二楼里，一个PDP-11支撑两个屏幕，共四个人两两对战。一局10美分，或者三局25美分。顺便说一下，当时的街机仍然是以pinball为主，也有SEGA的潜水艇，或其他赛车等机电游戏，基本上单台街机在1000刀到1万刀左右，看具体情况一般3-12个月回本，可想而知这个设备价格和游玩的收益有着严重的问题。当然，游戏本身还是成功的，排队等待时间经常在1个小时以上。直到1979年5月因显示处理器问题而被移走，之后于1997年修复，现收藏于加利福尼亚州山景城的计算机历史博物馆。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0007_galaxy_game.gif" alt="Galaxy-Game" title="Galaxy-Game">
+	  <img src="/images/0010/0007_galaxy_game.gif" alt="Galaxy-Game" title="Galaxy-Game" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Galaxy-Game</figcaption>
   </figure>
 </p>
@@ -351,7 +371,7 @@
 <p>上面说到了一位神秘人物，那么先介绍一下这位神秘人物在这年以前的事迹。 <em><strong>诺兰·布什内尔（Nolan Kay Bushnell）</strong></em> ，1943年2月5日出生于犹他州克利尔菲尔德，家族是摩门教信徒，不过本人倒是在很小就决定不再信奉摩门教。这个从小就对一切都好奇的孩子经常会捡附近军队丢弃的电子零件用来研究。而且他的邻居经营着一家满是“破铜烂铁”的旧货店同时也是电器店，里面的东西对他来讲就像垃圾佬捡到宝一样。他将自己的卧室和车库改造成实验室，专门研究无线电等电子设备，导致他的母亲每次进入他的房间都要做好防触电的准备，以防被自己儿子各种实验设备电到。十来岁的他还制作出了火箭溜冰鞋、自制收音机、免提电话、应急灯、汽车导航器等物件，还利用帮邻居修理电视的便利，回收倒卖各种零部件，并且大赚了一笔，可以说从小就点开了开了发明家和商人的天赋。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0009_Nolan_Bushnell.png" alt="Nolan Kay Bushnell" title="Nolan Kay Bushnell">
+	  <img src="/images/0010/0009_Nolan_Bushnell.png" alt="Nolan Kay Bushnell" title="Nolan Kay Bushnell" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Nolan Kay Bushnell</figcaption>
   </figure>
 </p>
@@ -359,14 +379,14 @@
 <p>毕业后的他觉得自己仍然还是喜欢硬件相关工作，而且自己的软件开发能力也在玩游戏盒仿制游戏中得到了锻炼，结合自己大学打工的经验，他决定要去迪士尼乐园工作，这对他来讲太熟悉不过了。不过犹他州是没有迪士尼乐园的，他瞄上的就是加州。但是很遗憾的被拒绝了，当然这是当时对他自己来讲很遗憾，但是对后世来讲，这是很幸运的事情，毕竟 <strong>电子游戏街机之父</strong> 要是去了迪士尼乐园修机器，这对后世的整个电子游戏产业有多大破坏力真的很难想象。他开始开始四处投简历，最终硅谷的一家公司安派克斯（Ampex，发明了美国第一款录音录像磁带和第一台实用的录像机）看中了他的能力，高薪（对比其他行业）聘请他作为工程师。工作不论在任何地方都会让人感到乏味，就算是很刺激的工作，在完成后也一样。布什内尔的能力得到了充分的发挥，但是他从这两点一线中感受不到他曾经摆弄那些淘换过来“电子破烂”的快乐。而他工作时的对桌， <strong>泰德·达布尼（Ted Dabney）</strong> 倒是和他很合得来，毕竟都是在一个部门下研究处理和操纵视频信号，这俩的交流变得及其频繁，而且布什内尔还把他在游乐园学到的爱好——围棋，教给了达布尼，而聪明的达布尼也瞬间爱上了这一古老东方的娱乐方式。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0011_teddabney.jpg" alt="Ted Dabney" title="Ted Dabney">
+	  <img src="/images/0010/0011_teddabney.jpg" alt="Ted Dabney" title="Ted Dabney" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Ted Dabney</figcaption>
   </figure>
 </p>
 <p>按照布什内尔的说法，他是在斯坦福大学报名参加研究生课程才去的，而根据达布尼的说法，当时以布什内尔的生活节奏，他不可能有时间学习。事实上是，布什内尔在搬来加州的时候就已经开始找围棋社团，而恰巧他加入的社团集会地点是在斯坦福大学，而在这里他结识了同为围棋爱好者的 <em><strong>吉姆·斯坦恩（Jim Stein）</strong></em> ，一位斯坦福大学AI实验室里面工作的员工。据他所说，他在这里将他心心念的 <strong>《太空大战！》(Spacewar!)</strong> 介绍给了斯坦恩，并请求他在实验室里安装并开始重新爱上这个游戏。但是这个说法仍然是那场著名的官司里的说辞，事实上有证据表明当时的斯坦福大学AI实验室里面采用的是PDP-6小型机，而 <strong>《太空大战！》(Spacewar!)</strong> 的PDP-6兼容版本早已经在这里成为了明星游戏。也就是说，布什内尔极有可能是由于围棋这一爱好才在斯坦福大学AI实验室于1970年接触到了 <strong>《太空大战！》(Spacewar!)</strong> ，而且不是他一个人，而是很多实验室的学生都希望这个游戏能变成随时可游玩的产品（当时所有人要使用计算机都是要申请时长和目的的，毕竟很贵重）。而布什内尔是所有人中唯一一个很认真的思考可能方式方法的人，当然，得出不可能的结论也是这一年发生的事。但还是在同一年，1970年，布什内尔看到了一张Nova 800小型机的广告彩页</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0010_nova800_1.jpg" alt="Nova 800" title="Nova 800">
+	  <img src="/images/0010/0010_nova800_1.jpg" alt="Nova 800" title="Nova 800" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Nova 800</figcaption>
   </figure>
 </p>
@@ -374,35 +394,35 @@
 <p>然而软件工程师已经说了用分时系统也没法达到目的的时候，似乎这件事已经黄了，但是布什内尔不想放弃。既然小型机+软件不行，他决定从硬件入手，毕竟游戏就是算法和数据，如果可以做一个价格更低但不通用只能玩这个游戏的硬件应该还是可以拼一下的。于是按照他的回忆，他和达布尼在自己小女儿的卧室里开始了艰苦工作，为此她妻子还买了上下铺让两个女儿住在一起。当然，这是他本人的回忆，但是按照达布尼后来接受采访的说法，俩人是在达布尼的女儿卧室工作的，而且在听到错误采访后还在评论区质问布什内尔，而布什内尔则打电话向达布尼表示自己可能记错了（布什内尔家人信息被隐蔽的很好，不过通过种种渠道显示，达布尼说的应该是正确的历史）。创新有时候是被现实逼出来的，当时的电视是模拟信号，一段时间内如果信号和机器失去同步，图像会从屏幕上滚动,重新出现在顶部或底部，可能最后看到这个现象的也得是部分90后以前的人了，00后应该没见过这种现象。而达布尼敏锐的发现，这个似乎可以用来制作游戏，然后他设计了一个电路板，用一个旋钮可以直接在电视上移动一个虚拟的物体，实验很成功。按照不同地方的说法不一，一个说法是俩人凑出了700刀；而另一种说法是俩人各拿出250刀，布什内尔的妻子赞助了500刀，最终俩人成立了Syzygy工作室（正式名称是 <strong>Syzygy Engineering</strong> ），并继续把整个设计进一步完善。终于1971年1月，技术方面问题已经基本可解决了（或者已经有可行解决思路了），当然，还原是做不到的，比如中心黑洞重力等等都很难用硬件来做。作为一个商业头脑敏锐的人，布什内尔迅速发现了下面的麻烦：没钱制造。于是他找了自己的上司，同公司其他部门的员工，还让达布尼去拜访以前的前辈，但是没人愿意参与。就在这种焦灼的开发和找商业伙伴的时候，布什内尔在牙科诊所时和他的牙医聊起了这事，而牙医则把他介绍给了一位叫做戴夫·拉尔斯丁（Dave Ralstin）的销售经理。而拉尔斯丁所在的纳廷联合公司（Nutting Associates）成立于1966年，恰好是一家专门制作投币式娱乐设施的公司，在双方商议后，决定纳廷联合公司会负责提供生产街机的设施和场地，并负担全部的生产费用。Syzygy工作室则会将游戏授权给纳廷联合公司，版权不变，仍归Syzygy工作室所有，每台机器支付5%的版税。4月，布什内尔直接从安派克斯公司辞职，加入了纳廷联合公司，并担任首席工程师，两个月后，达布尼在劝说下也来到了同一公司。俩人分工合作完善了所有电路、ai和框架，第一台机器在1971年8月就被赶制了出来，而独特的外型是布什内尔根据喜欢的星际迷航来设计的</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0013_Computer_Space.png" alt="Computer Space" title="Computer Space">
+	  <img src="/images/0010/0013_Computer_Space.png" alt="Computer Space" title="Computer Space" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>Computer Space</figcaption>
   </figure>
 </p>
 <p>纳廷联合公司利用自己的渠道先投放到了斯坦福大学附近的荷兰鹅酒吧，作为学生经常光顾的地方，这个比较熟悉的东西还算容易上手，收获了很高的人气。最终这个产品定名为 <strong>计算机空间（Computer Space）</strong> ，有着4个按钮：射击、前进、左旋、右旋。之所以没有用摇杆，是因为测试中摇杆耐久度远远没有达到预期的耐久，很快就损坏了。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0012_controller.png" alt="控制面板" title="控制面板">
+	  <img src="/images/0010/0012_controller.png" alt="控制面板" title="控制面板" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>控制面板</figcaption>
   </figure>
 </p>
 <p>而且由于机能问题，改为单人对抗电脑ai控制的两个飞碟。玩家控一枚火箭，在射击一对飞碟同时躲避它们的攻击。游戏中，三艘飞船在一个二维平面上飞行，背景是星空。导弹是一次只能发射一枚，发射还有有冷却时间。即使玩家不动，火箭依然在运动，旋转飞船也不会改变火箭运动方向，但可以保持恒定速度旋转。飞碟要么保持原地，要么协同以之字形方式绕屏幕滑翔，其中一个保持恒定的正下方附近。如果飞船或导弹越过屏幕一侧，它会以环绕效果重新出现在另一侧。导弹飞行时，玩家可以通过旋转火箭来向左或向右转导弹。每当玩家被导弹或飞碟击中时，屏幕会闪烁，玩家的火箭会快速旋转并消失，然后又出现在原地。如果飞碟被导弹击中，屏幕会闪烁，飞碟会短暂消失。屏幕右侧的计数器会记录玩家火箭和飞碟被摧毁的次数，以及该轮游戏的持续时间。每轮有时间限制，可调节，时间为60至150秒，默认为90秒；当时间限制结束时，如果玩家得分低于电脑分数，游戏即告结束。如果更高，黑白颜色会在“超空间”特效中反转，然后免费开始下一轮并继续。一轮售价为25美分。当玩家或电脑得分超过9的时候，游戏还会显示扭曲的字符，达到16分时，每个分数会独立重置为0，作为一个特殊的视觉效果也为游戏体验加分。顺便提一句，达布尼还设计了一个能发出类似火箭发动机声音的音响系统。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0014_screen.png" alt="画面" title="画面">
+	  <img src="/images/0010/0014_screen.png" alt="画面" title="画面" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>画面</figcaption>
   </figure>
 </p>
 <p>紧接着公司决定要参加美国音乐协会（MOA）音乐与娱乐设备博览会上高调亮相以达到广告宣传效果，在此之前还要继续优化和制造新的机器。这时布什内尔听到了上文中皮茨和塔克的投币版 <strong>《太空大战！》(Spacewar!)</strong> 计划，于是急急忙忙的找二人攀谈了一下，之后确认对方使用的技术手段后才放下心来，因为商业方面，高昂的成本是不可行的（再说一句皮茨和塔克采用的摇杆是军用设备，因此耐久高，价格也贵得离谱）。他们继续努力改进，但是发现如果放置在其他地方则效果没有斯坦福大学附近的酒吧好，而且是远远不好。时间来到了10月15日，在芝加哥的展会上，纳廷联合公司展示了 <strong>计算机空间（Computer Space）</strong> 的四台原型机，分别为红、蓝、白、黄，暗示游戏已在生产中，尽管实际上这是当时仅生产的四台机器。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0015_example.png" alt="找不到原始图，大概意思是这样" title="找不到原始图，大概意思是这样">
+	  <img src="/images/0010/0015_example.png" alt="找不到原始图，大概意思是这样" title="找不到原始图，大概意思是这样" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>找不到原始图，大概意思是这样</figcaption>
   </figure>
 </p>
 <p>这些最初的机柜是纯色的，后来采用了闪亮的表面处理。运输过程中一台机柜受损，一台显示器损坏；俩人现场修复了三个可用的机器，并将坏的东西集中到第四台机器打开向与会者展示内部结构。而这款游戏深受参观者的喜爱，展示区非常拥挤，与会的行业杂志也对其赞不绝口。然而，实际的游戏机发行商对这款产品兴趣不大，他们很担心游戏的长期收益、可靠性以及嵌入式显示器对窃贼的吸引力；关于公司在展会上接了几单，现在没有统一的数据。不过公司还是下令大量生产，期望分销商能带来更多曝光。游戏于11月或12月进入初步制作阶段，并于1972年1月底左右全面投入生产。而当时最出名的广告就是下图这个，而这位图中金发大波浪则是附近脱衣舞女郎。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0016_ads.png" alt="著名的广告" title="著名的广告">
+	  <img src="/images/0010/0016_ads.png" alt="著名的广告" title="著名的广告" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>著名的广告</figcaption>
   </figure>
 </p>
@@ -410,7 +430,7 @@
 <p>无论如何， <strong>计算机空间（Computer Space）</strong> 作为 <strong>首款规模商业化街机电子游戏</strong> 还是在历史上留下了不可磨灭的印记，其采用了之前机械（机电）街机游戏中的设计语言，并为将此前在研究大型机上设计和游玩的媒介转变为面向普通消费者的商业模式提供了模板。而且1973年电影《绿色食品（Soylent Green）》中出现了一台定制的白色机柜，作为未来娱乐设备，标志着 <strong>电子游戏首次出现在电影等主流文化中</strong> 。</p>
 <p>
   <figure align='center'>
-	  <img src="/images/0010/0017_white_ver.png" alt="古老的画质" title="古老的画质">
+	  <img src="/images/0010/0017_white_ver.png" alt="古老的画质" title="古老的画质" class="content-img" loading="lazy" style="max-height:600px;width:auto;cursor:pointer">
 	<figcaption>古老的画质</figcaption>
   </figure>
 </p>
@@ -424,20 +444,149 @@
       
       </div>
     </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
   </article>
+  <style>
+    .page-container { width: 80%; margin: 0 auto; }
+    @media (max-width: 60em) { .page-container { width: 92%; } }
+    .article-content img {
+      max-width: 70%;
+      max-height: 600px;
+      width: auto;
+      cursor: pointer;
+    }
+    .article-content figure {
+      max-width: 70%;
+      margin: 1.5rem auto;
+      text-align: center;
+    }
+    .article-content figure img {
+      max-width: 100%;
+      max-height: 600px;
+      width: auto;
+      cursor: pointer;
+    }
+    .lightbox-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.85);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      animation: fadeIn .2s;
+    }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .lightbox-overlay img {
+      max-width: 90vw;
+      max-height: 90vh;
+      object-fit: contain;
+      display: block;
+    }
+  </style>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.article-content img').forEach(function(img) {
+      img.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        var overlay = document.createElement('div');
+        overlay.className = 'lightbox-overlay';
+        overlay.innerHTML = '<img src="' + this.src + '" alt="">';
+        overlay.addEventListener('click', function() { overlay.remove(); });
+        document.body.appendChild(overlay);
+      });
+    });
+  });
+  </script>
+  
+<div class="floating-sidebar">
+  <div class="floating-sidebar-title">有点东西</div>
+  <ul class="floating-sidebar-links">
+    
+    <li><a href="/sites/bead-maker/index.html" target="_blank" rel="noopener">图片像素/拼豆化</a></li>
+    <li><a href="/sites/pong/index.html" target="_blank" rel="noopener">PONG</a></li>
+    <li><a href="/sites/101-BASIC-Computer-Games/index.html" target="_blank" rel="noopener">101-BASIC-Computer-Games</a></li>
+  </ul>
+</div>
+
+<style>
+  .floating-sidebar {
+    position: fixed;
+    right: 24px;
+    top: 120px;
+    width: 160px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 12px 0;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    z-index: 100;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .floating-sidebar-title {
+    padding: 4px 16px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .floating-sidebar-links {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0 0;
+  }
+  .floating-sidebar-links li {
+    padding: 4px 16px;
+  }
+  .floating-sidebar-links li + li {
+    margin-top: 6px;
+  }
+  .floating-sidebar-links a {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    line-height: 1.6;
+    transition: color 0.15s;
+  }
+  .floating-sidebar-links a::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    mask-size: contain;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'%3E%3C/path%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    -webkit-mask-size: contain;
+    vertical-align: middle;
+    opacity: 0.6;
+  }
+  .floating-sidebar-links a:hover {
+    color: #0074d9;
+  }
+  .floating-sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .floating-sidebar::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 2px;
+  }
+  @media (max-width: 60em) {
+    .floating-sidebar {
+      display: none;
+    }
+  }
+</style>
+
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:6403/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:11003/" >
     &copy;  '广义'电子游戏史 2026 
   </a>
     <div><div class="ananke-socials"></div>

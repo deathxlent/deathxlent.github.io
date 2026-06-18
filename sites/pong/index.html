@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONG - 1972 Arcade Edition (Local)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .player-info {
+            background: #111;
+            border: 2px solid #fff;
+            padding: 15px;
+            width: 180px;
+        }
+        .player-info h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .player-detail {
+            padding: 10px;
+            margin: 5px 0;
+            background: #222;
+            border: 1px solid #444;
+            font-size: 12px;
+        }
+        .player-detail.p1 {
+            border-color: #0f0;
+        }
+        .player-detail.p2 {
+            border-color: #f00;
+        }
+        .game-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #gameCanvas {
+            background: #000;
+            border: 2px solid #fff;
+        }
+        .status {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .controls {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+        }
+        .start-btn {
+            margin-top: 10px;
+            padding: 8px 20px;
+            background: #000;
+            color: #fff;
+            border: 2px solid #fff;
+            font-family: 'Courier New', monospace;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .start-btn:hover {
+            background: #fff;
+            color: #000;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                flex-direction: column;
+            }
+            .container {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .player-info {
+                width: 100%;
+            }
+            #gameCanvas {
+                width: 100%;
+                max-width: 600px;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="player-info">
+            <h3>PLAYER 1</h3>
+            <div class="player-detail p1">
+                <div><strong>Left Side</strong></div>
+                <div style="margin-top: 5px; font-size: 10px; color: #aaa;">W/S Keys</div>
+            </div>
+        </div>
+        <div class="game-container">
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+            <div class="status" id="status">Press SPACE to start game</div>
+            <div class="controls" id="controls">P1: W/S | P2: O/L | First to 11 wins</div>
+            <button class="start-btn" id="startBtn">START GAME</button>
+        </div>
+        <div class="player-info">
+            <h3>PLAYER 2</h3>
+            <div class="player-detail p2">
+                <div><strong>Right Side</strong></div>
+                <div style="margin-top: 5px; font-size: 10px; color: #aaa;">O/L Keys</div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
